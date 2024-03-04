@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mickless</title>
+     <!--DISEÑO PRINCIPAL-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="image/icono.png">
+    <!--SECCION DE HOMBRES-->
+    <link rel="stylesheet" href="Hombre.css">
+</head>
+<body>
+    <header>
+
+        <div class="contenedor-header">
+            <div class="LogoPrincipal">
+                <a href="index.html"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
+                </a>
+            </div>
+            <div class="contenedor1">
+                <div class="BarraFondo"></div>
+            </div>
+            <div class="contenedor2">
+                <div class="circulo"></div>
+            </div>
+            <div class="contenedor3">
+                <div class="CuadradoFondo"></div>
+            </div>
+
+        </div>
+       
+
+        <div class="contenedor-nav">
+            <nav class="Nav1">
+                <ul class="desplegable">
+                    <li><a href="Hombre.html">Hombre</a>
+                        <ul>
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Zapatos</a></li>
+                        </ul>
+                        </li>           
+                    <li><a href="Mujer.html">Mujer</a>
+                        <ul>
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Zapatos </a></li>
+                            <li><a href="#">Accesorios </a></li>
+                            <li><a href="#">Colecciones</a></li>
+                        </ul>
+                        </li>
+                    <li><a href="Accesorios.html">Accesorios</a>
+                        <ul>
+                            <li><a href="#">Anillos</a></li>
+                            <li><a href="#">reloj</a></li>
+                            <li><a href="#">Maquillaje</a></li>
+                        </ul>
+                    </li>
+                </ul>      
+            </nav>
+
+            <nav class="menu-buscador">
+                <input class="buscador" type="text" id="input-busqueda" placeholder="Buscar aqui">
+            </nav>
+            
+            <nav class="Nav2">
+                <ul>
+                    <li><a href="#" id="menu-trigger">Acceso</a></li>
+                </ul>
+              </nav>
+            
+              <div id="overlay"></div>
+            
+              <div id="menu" class="hidden">
+                <ul>
+                    <h3 style="padding-bottom: 10%;">Mi cuenta</h3>
+                    <li style="background-color: rgba(24, 18, 18, 0.61);"><a href="Acceso.html">Iniciar seccion</a></li>
+                    <li style="background-color: rgb(255, 255, 255);"><a href="Registro.html">Registrarse</a></li>
+                </ul>
+              </div> 
+
+            <nav class="Nav3">
+                <ul><a href="carrito.html"><img src="image/Carrito - blanco.png" alt="" width="70"></a></ul>
+            </nav>    
+        </div>
+    </header>
+
+    <!--CATEGORIAS-->
+    <section class="titulos-section">
+       
+        <div class="contenedor-titulo">
+            <h1>CATEGORIA PARA HOMBRES</h1>
+        </div>
+    </section>
+
+    <!--
+    <section class="categories">
+
+        <article class="post-categoria" data-categoria="camisetas">
+            <a class="no-underline" href="">
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Russell camiseta atlética para entrenar para hombre.jpg" width="105" >
+                <h4>Camisetas</h4>
+            </a>
+        </article>
+
+        <article class="post-categoria" data-categoria="zapatos">
+            <a class="no-underline" href="">
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/DC SHOES.jpg" width="150">
+                <h4>Zapatos</h4>
+            </a>
+        </article>
+
+        <article class="post-categoria" data-categoria="accesorios">
+            <a class="no-underline" href="">
+                <img src="image/Hombre/" width="150">
+                <h4>Accesorios</h4>
+            </a>
+        </article>
+
+        <article class="post-categoria" data-categoria="ofertas">
+            <a class="no-underline" href="">
+                <br><br><img src="image/Post - Hombre/Nike Air Jordan 1.jpg" width="150">
+                <h4>Ofertas</h4>
+            </a>
+        </article>
+
+        <article class="post-categories">
+            <a class="no-underline" href="">
+                <img src="image/Hombre/chaquetas/Chaqueta acolchada ligera y resistente al agua para hombre (disponible en tallas Big y Tall).jpg" width="85">
+                <h4>Chaquetas</h4>
+            </a>
+        </article>
+    </section> -->
+
+    <!-- CATEGORIAS -->
+
+    <section class="categorias">
+        <article class="post-categoria" data-categoria="zapatos">
+            <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/bad bunny campus adidas.jpg" width="150" >
+            <h2>Zapatos</h2>
+        </article>
+        <article class="post-categoria" data-categoria="camisetas">
+            <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Russell camiseta atlética para entrenar para hombre.jpg" width="105" >
+            <h2>Camisetas</h2>
+        </article>
+        <article class="post-categoria" data-categoria="accesorios">
+            <img src="/HTML/Mick Less/Proyecto final/image/Accesorios unisex/Relojes/CASIO_de_pulsera_clásica_3_agujas.jpg" width="150" >
+            <h2>Accesorios</h2>
+        </article>
+        <article class="post-categoria" data-categoria="ofertas">
+            <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/SOLY HUX Camisetas gráficas.jpg" width="105" >
+            <h2>Ofertas</h2>
+        </article>
+        <article class="post-categoria" data-categoria="chaquetas">
+            <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/WULFUL_Men_s_Stand_Collar_Leather_Jacket_Motorcycle_Lightweight_Faux_Leather_Outwear-removebg-preview.png" width="105" >
+            <h2>Chaquetas</h2>
+        </article>
+    </section>
+    
+   <!-- PRODUCTOS -->
+
+    <section class="productos">
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Zapato Tenis Bota De Lona Marca Venus.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Camibuso Manga Larga En Licra Para Deportes Y Natacion.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/adidas_Men_s_Essentials_Warm-up_3-Stripes_Track_Top-removebg-preview.png" width="200">
+            </a>
+        </article>
+        
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Zapato Moda Hombre Tellenzi F2904 Calzado Nacional Nuevo.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Camisa De Pana Con Botones Para Hombre, Ropa De Abrigo Casua.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/BEST_SOUTH_Men_s_Hooded_Winter_Coats_Water_Resistant_Warm_Thicken_Insulated_Full_Zip_Windproof_Jackets_with_Pockets-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Zapatillas Deportivas Casuales Zapatos Cómodos Piel Para Hom.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/SOLY HUX Camisetas gráficas.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Calvin_Klein_Chaquetas_cortavientos_resistentes_al_agua_para_hombre__estándar_y_grande_y_alto_-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Zapatillas de baloncesto elásticas antideslizantes para hombre.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Russell camiseta atlética para entrenar para hombre.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Chaqueta_acolchada_ligera_y_resistente_al_agua_para_hombre__disponible_en_tallas_Big_y_Tall_-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Vooncosir Tenis modernos con malla transpirable, suela antideslizante de hoja, suaves, informales, a la moda y atléticos, para caminar, para hombre.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Rudder Anchor Boat Rope Camisetas clásicas.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Chaqueta_para_hombres_activos__holgada__con_aislamiento__de_tacto_firme_y_forrada_de_franela-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Tenis Brendan Azul Para Hombre Croydon.jpg" width="400">
+            </a>
+        </article>
+
+        
+    <article class="producto camisetas" data-ropa="New Balance 550">
+        <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+            <h2>Camisetas</h2>
+            <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Magiftbox Camisas de entrenamiento.jpg" width="200">
+        </a>
+    </article>
+
+    <article class="producto chaquetas" data-ropa="New Balance 550">
+        <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+            <h2>Chaqueta</h2>
+            <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Columbia_Glennaker_-_Chaqueta_impermeable_para_hombre-removebg-preview.png" width="200">
+        </a>
+    </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Tenis Jordan Stay Loyal 3 Remix.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/JMIERR Camisa de algodón y lino con botones.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__informal__ajustada_y_de_algodón__chaqueta_del_equipo__de_béisbol__cazadora-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Versace Chain.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/GORGLITTER Camisetas con estampado gráfico.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/COOFANDY_Chaqueta_casual_para_hombre__chaqueta_de_algodón_y_lino__abrigo_de_trabajo_ligero_con_botones-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Nike Air Jordan 1.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/GORGLITTER Camisetas con estampado gráfico de letras.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Dr.Cyril_Chaqueta_Sherpa_Trucker_para_hombre__chaqueta_con_forro_polar__cuello_vuelto__chaqueta_de_carga_cálida_de_invierno_con_bolsillos-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Ref.ar3762-006 Nike Tenis Hombre Jordan Access Lifestyle.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/COOFANDY Men's Short Sleeve.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Levi_s_-_Chaqueta_de_sherpa_estilo_camionero_para_hombre__también_disponible_en_tallas_Big_y_Tall_-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Skechers Zapato Hombre Skechers Max Protect 237301 Bkyl Negr.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/COOFANDY Camiseta de lino Henley de manga corta para hombre, casual, verano, playa, hippie, camisetas.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Tommy_Hilfiger_Chaqueta_de_rendimiento_con_forro_de_sherpa_suave_para_hombre-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Tenis Bl Active Negro Asher Hombre Vans Vans.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/COOFANDY Camisa casual Henley para hombre, manga corta, cuello de banda, camisa de lino, para verano, playa, hippie, camisetas.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Tommy_Hilfiger_Chaqueta_Softshell_ligera_resistente_al_agua_transpirable_con_capucha_para_hombre-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Reebok Zapato Hombre Reebok Zig Dynamica 4 100033401 Verde 1.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Carhartt - Camiseta de manga larga con logotipo para hombre, con gráfico, pesada y con ajuste holgado.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Wrangler_Authentics_-_Chaqueta_de_franela_estilo_camisa_para_hombre__diseño_acolchado_con_capucha_y_manga_larga-removebg-preview.png" width="200">
+            </a>
+        </article>
+    
+        
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Nike Zapato Hombre Nike Nike Court Legacy Cnvs Cw6539-002 Ne.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto camisetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Camisetas</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Camiseta Under Armour Packaged Base 2.0 Con Cuello Redondo P.jpg" width="200">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/Wrangler_Chaqueta_vaquera_sin_forro_Western_para_hombre-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/adidas Zapato Hombre adidas Performance Grand Court Base.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto chaquetas" data-ropa="New Balance 550">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>Chaqueta</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/chaquetas/WULFUL_Men_s_Stand_Collar_Leather_Jacket_Motorcycle_Lightweight_Faux_Leather_Outwear-removebg-preview.png" width="200">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="Hombre">
+            <a href="#" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/bad bunny campus adidas.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="Hombre">
+            <a href="#" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/DC SHOES.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="Hombre">
+            <a href="#" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Fila Zapato Hombre Fila Daker 415700 Wht Blanco-azul 11.0.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="Hombre">
+            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
+                <h2>New Balance 550</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/New Balance 550.jpg" width="400">
+            </a>
+        </article>
+
+        <article class="producto zapatos" data-ropa="Hombre">
+            <a href="#" class="no-underline">
+                <h2>Zapato Deportivo</h2>
+                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Nike Air Forece One one low.webp" width="400">
+            </a>
+        </article>
+
+    </section>
+
+    <footer>
+
+        <div class="pie-pagina">
+  
+          <div class="contact">
+            <h1>Contacto</h1>
+          </div>
+    
+          <div class="quienes-somos">
+            <h1>Quienes somos</h1>
+          </div>
+    
+          <div class="ayuda">
+            <h1>Ayuda</h1>
+          </div>
+    
+          <div class="siguenos">
+            <h1>Siguenos</h1>
+          </div>
+  
+        </div>
+        
+      </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

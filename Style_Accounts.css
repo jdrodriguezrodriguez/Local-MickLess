@@ -1,0 +1,201 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*ACCESO*/
+
+
+.login-container {
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(196, 250, 2, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.login-header {
+    background: #257285;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.login-header h1 {
+    margin: 0;
+}
+
+.login-header p {
+    margin-top: 10px;
+    color: #ecf0f1;
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.additional-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.additional-options a {
+    color: #2980b9;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.additional-options span {
+    color: #333;
+}
+
+/*Boton - Ingresar*/
+.ingresar{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #257285;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+/* REGISTRO */
+.signup-container {
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.2); 
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.signup-header {
+    background: #09216d; 
+    padding: 20px;
+    color: #fff;
+}
+
+.signup-header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.signup-header p {
+    margin-top: 10px;
+    color: #000000;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.signup-form {
+    padding: 20px;
+}
+
+/*Boton - Registro*/
+.crear-cuenta{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #09216d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+/* ... RESET ACCOUNT... */
+
+.forgot-password-container {
+    background: #fff;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.forgot-password-header {
+    background: #ffd000;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.forgot-password-header h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.forgot-password-header p {
+    margin-top: 10px;
+    text-align: left;
+    color: #000000;
+    font-size: 1.4em;
+}
+
+.forgot-password-form {
+    padding: 20px;
+    padding-top: 4rem;
+    
+}
+
+/*Boton - Restablecer*/
+.Restablecer{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f6be00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+
+
+
+

@@ -1,0 +1,167 @@
+/*DETALLES*/
+
+.container-detalles {
+    display: flex;
+    padding-top: 12rem; 
+    padding-left: 12rem; 
+}
+
+.contenedor {
+    padding-top: 10%;
+    display: flex; 
+    width: 100%; 
+}
+
+.contenedor img{
+    max-width: 100%; 
+    border-radius: 15px;
+}
+
+.tittle-detalles{
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.detalles {
+    flex-grow: 1; 
+    padding-left: 10rem; 
+}
+
+.detalles button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.detalles button:hover{
+    background-color: #b38e14;
+    color: black;
+}
+
+/*Sugerencias:*/
+.tittle-clothes{
+    position: absolute;
+    padding-left: 20%;
+    padding-top: 11%;
+    font-size: 1.5rem;
+  }
+  
+  .container {
+      max-width: 900px;
+      width: 95%;
+      margin: 0 auto;
+  }
+    
+    .slider-wrapper {
+      position: relative;
+    }
+    
+    .slider-wrapper .slide-button {
+      position: absolute;
+      top: 50%;
+      outline: none;
+      border: none;
+      height: 50px;
+      width: 50px;
+      z-index: 5;
+      color: #fff;
+      display: flex;
+      cursor: pointer;
+      font-size: 2.2rem;
+      background: #000000;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .slider-wrapper .slide-button:hover {
+      background: #404040;
+    }
+    
+    .slider-wrapper .slide-button#prev-slide {
+      left: -25px;
+      display: none;
+    }
+    
+    .slider-wrapper .slide-button#next-slide {
+      right: -25px;
+    }
+    
+    .slider-wrapper .image-list {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 16px;
+      font-size: 0;
+      list-style: none;
+      margin-top: 250px;
+      margin-bottom: 50px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    
+    .slider-wrapper .image-list::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .slider-wrapper .image-list .image-item {
+      border: solid 2px black;
+      border-radius: 10px;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    
+    .container .slider-scrollbar {
+      height: 24px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      display: none;
+    }
+    
+    .slider-scrollbar .scrollbar-track {
+      background: #ccc;
+      width: 100%;
+      height: 12px;
+      display: flex;
+      align-items: center;
+      border-radius: 4px;
+      position: relative;
+    }
+    
+    .slider-scrollbar:hover .scrollbar-track {
+      height: 14px;
+    }
+    
+    .slider-scrollbar .scrollbar-thumb {
+      position: absolute;
+      background: #000000;
+      top: 0;
+      bottom: 0;
+      width: 50%;
+      height: 100%;
+      cursor: grab;
+      border-radius: inherit;
+    }
+    
+    .slider-scrollbar .scrollbar-thumb:active {
+      cursor: grabbing;
+      height: 12px;
+      top: 1px;
+    }
+    
+    .slider-scrollbar .scrollbar-thumb::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -10px;
+      bottom: -10px;
+    }

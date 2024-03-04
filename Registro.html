@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_Accounts.css">
+    <title>Crear Cuenta</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("image/Registro.jpg");
+        }
+    </style>
+    <div class="container">
+        <div class="signup-container">
+            <div class="signup-header">
+                <h1>Crear Cuenta</h1><br>
+                <p>¡Únete a nosotros! Completa el formulario para crear una cuenta.</p>
+            </div>
+            <form class="signup-form">
+                <div class="form-group">
+                    <label for="fullname">Nombre completo:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="newpassword">Nueva contraseña:</label>
+                    <input type="password" id="newpassword" name="newpassword" required>
+                </div>
+                <button class="crear-cuenta" type="submit">Crear Cuenta</button>
+            </form>
+            <div class="additional-options">
+                <a href="Acceso.html">Iniciar Seción</a>
+                <p>o</p>
+                <a href="olvido.html">¿Olvidaste su contraseña?</a>
+            </div><br><br>
+        </div>
+    </div>
+</body>
+</html>
