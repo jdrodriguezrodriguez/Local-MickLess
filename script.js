@@ -27,17 +27,8 @@ document.getElementById('input-busqueda').addEventListener('keydown', function(e
     }
 });
 
-//MENU DESPLEGABLE PARA ACCESO
-document.getElementById("menu-trigger").addEventListener("click", function(event) {
-    event.preventDefault(); // Evitar que el enlace siga el href
-    document.getElementById("overlay").style.display = "block"; // Mostrar overlay
-    document.getElementById("menu").style.display = "block"; // Mostrar menú
-});
 
-document.getElementById("overlay").addEventListener("click", function() {
-    document.getElementById("overlay").style.display = "none"; // Ocultar overlay al hacer clic fuera del menú
-    document.getElementById("menu").style.display = "none"; // Ocultar menú
-});
+
 
 /*CATEGORIAS:*/
 document.querySelectorAll('.categorias article').forEach(function(categoria) {

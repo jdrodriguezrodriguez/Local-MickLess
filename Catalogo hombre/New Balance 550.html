@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mickless</title>
      <!--DISEÑO PRINCIPAL-->
-     <link rel="stylesheet" href="/HTML/Mick Less/Proyecto final/index.css">
-     <link rel="icon" href="/HTML/Mick Less/Proyecto final/image/icono.png">
+     <link rel="stylesheet" href="/index.css">
+     <link rel="icon" href="./HTML/Mick Less/Proyecto final/image/icono.png">
      <!--SECCION DE ROPA-->
      <link rel="stylesheet" href="Catalogo.css">
      <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="LogoPrincipal">
-            <a href="/HTML/Mick Less/Proyecto final/index.html"><img class="ImagenPrincipal" src="/HTML/Mick Less/Proyecto final/image/principal.png" width="200" class="imagen-ajustada">
+            <a href="/index.html"><img class="ImagenPrincipal" src="/image/principal.png" width="200" class="imagen-ajustada">
             </a>
         </div>
         <div class="contenedor1">
@@ -33,14 +36,14 @@
         <div class="contenedor-nav">
             <nav class="Nav1">
                 <ul class="desplegable">
-                    <li><a href="/HTML/Mick Less/Proyecto final/Hombre.html">Hombre</a>
+                    <li><a href="/Hombre.html">Hombre</a>
                         <ul>
                             <li><a href="#">Ropa</a></li>
                             <li><a href="#">Accesorios</a></li>
                             <li><a href="#">Zapatos</a></li>
                         </ul>
                         </li>           
-                    <li><a href="/HTML/Mick Less/Proyecto final/Mujer.html">Mujer</a>
+                    <li><a href="/Mujer.html">Mujer</a>
                         <ul>
                             <li><a href="#">Ropa</a></li>
                             <li><a href="#">Zapatos </a></li>
@@ -48,7 +51,7 @@
                             <li><a href="#">Colecciones</a></li>
                         </ul>
                         </li>
-                    <li><a href="/HTML/Mick Less/Proyecto final/Accesorios.html">Accesorios</a>
+                    <li><a href="/Accesorios.html">Accesorios</a>
                         <ul>
                             <li><a href="#">Anillos</a></li>
                             <li><a href="#">reloj</a></li>
@@ -73,14 +76,14 @@
             <div id="menu" class="hidden">
               <ul>
                   <h3 style="padding-bottom: 10%;">Mi cuenta</h3>
-                  <li style="background-color: rgba(24, 18, 18, 0.61);"><a href="Acceso.html">Iniciar seccion</a></li>
+                  <li style="background-color: rgba(24, 18, 18, 0.61);"><a href="http://localhost/Local-MickLess/Acceso.php">Iniciar seccion</a></li>
                   <li style="background-color: rgb(255, 255, 255);"><a href="Registro.html">Registrarse</a></li>
               </ul>
             </div> 
 
 
             <nav class="Nav3">
-                <ul><a href="#"><img src="/HTML/Mick Less/Proyecto final/image/Carrito - blanco.png" alt="" width="70"></a></ul>
+                <ul><a href="#"><img src="/image/Carrito - blanco.png" alt="" width="70"></a></ul>
             </nav>    
         </div>
     </header>
@@ -88,35 +91,55 @@
     <section class="container-detalles">
         <article class="post" data-ropa="Hombre">
             <div class="contenedor">
-                <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/New Balance 550.jpg" width="500">
+                <img src="/image/Hombre/zapatos/New Balance 550.jpg" width="500">
                 <div class="detalles">
 
                     <div class="tittle-detalles">
-                        <img src="/HTML/Mick Less/Proyecto final/image/icono.png" width="50">
+                        <img src="/image/icono.png" width="50">
                         <h2 style="padding: 4%;">Mick Less</h2>
                     </div>
-                    <br>    
-                    <div>
-                        <h1 style="font-size: 2rem;">New Balance 550</h1><br>
-                        <p>Item: 0001</p><br>
-                        <h3>Precio:</h3>
-                        <p>$ 200.000</p>
-                        <p>Hombre</p><br>
-                        <h4>Talla</h4>
+                    <br>  
+                    
+                    <div class="titulo">
+                        <h3>New Balance 550 <br>
+                            <small>Zapato de hombre</small>
+                        </h3>
+                    </div>
+
+                    <div class="description">
+                        <h4>Descripción</h4>
+                        <p>Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons makes it easy to integrate expressive type and icons seamlessly — no matter where you are in the world.</p>
+                    </div>
+
+                    <div class="size">
+                        <h4>Tallas</h4><br>
                         <ul>
+                            <li>37</li>
+                            <li>38</li>
                             <li>39</li>
                             <li>40</li>
-                            <li>41</li>
-                            <li>42</li>
                         </ul>
-                        <p>Selecciona una talla</p><br>
-         
-                        <div class="botton-detalles">
-                            <button>Agregar al carro</button>
+                    </div>
+                    <br>
+                    <div class="buy">
+                        <div class="price">
+                            <sup>$</sup>
+                            <span>200.<small>000</small></span>
+                        </div>
+
+                        <div class="btn-detalles">
+                            <button class="cart-button no-background"><img src="/image/Carrito.png" width="40" alt="Icono de carrito de compras"></button>
                             <button>Metodos de pago</button>
                             <button>Comprar</button>
                         </div>
                     </div>
+
+
+         
+                        
+                            
+                        
+
                     
                 </div>
             </div>
@@ -126,7 +149,7 @@
     <div class="tittle-clothes">
         <h1>Sugerencias</h1>
     </div>
-
+<hr>
     <section class="sugerencias">
         <div class="container">
             <div class="slider-wrapper">
@@ -134,14 +157,14 @@
                 chevron_left
               </button>
               <ul class="image-list">
-                <img class="image-item" src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/bad bunny campus adidas.jpg" alt="img-1" />
-                <img class="image-item" src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/DC SHOES.jpg" alt="img-2" />
-                <a href="Catalogo hombre/New Balance 550.html"><img class="image-item" src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/New Balance 550.jpg" alt="img-3" />
+                <img class="image-item" src="/image/Hombre/zapatos/bad bunny campus adidas.jpg" alt="img-1" />
+                <img class="image-item" src="/image/Hombre/zapatos/DC SHOES.jpg" alt="img-2" />
+                <a href="Catalogo hombre/New Balance 550.html"><img class="image-item" src="/image/Hombre/zapatos/New Balance 550.jpg" alt="img-3" />
                 </a>
-                <img class="image-item" src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Nike Air Forece One one low.webp" alt="img-4" />
-                <img class="image-item" src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Nike Air Jordan 1.jpg" alt="img-5" />
-                <img class="image-item" src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Versace Chain.jpg" alt="img-6" />
-                <img class="image-item" src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/Reebok Zapato Hombre Reebok Zig Dynamica 4 100033401 Verde 1.jpg" alt="img-6" />
+                <img class="image-item" src="/image/Hombre/zapatos/Nike Air Forece One one low.webp" alt="img-4" />
+                <img class="image-item" src="/image/Hombre/zapatos/Nike Air Jordan 1.jpg" alt="img-5" />
+                <img class="image-item" src="/image/Hombre/zapatos/Versace Chain.jpg" alt="img-6" />
+                <img class="image-item" src="/image/Hombre/zapatos/Reebok Zapato Hombre Reebok Zig Dynamica 4 100033401 Verde 1.jpg" alt="img-6" />
               </ul>
               <button id="next-slide" class="slide-button material-symbols-rounded">
                 chevron_right
@@ -180,7 +203,7 @@
         
       </footer>
 
-    <script src="/HTML/Mick Less/Proyecto final/script.js" defer></script>
+    <script src="/script.js" defer></script>
     
 </body>
 </html>

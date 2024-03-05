@@ -1,48 +1,126 @@
+
 /*DETALLES*/
 
 .container-detalles {
-    display: flex;
-    padding-top: 12rem; 
-    padding-left: 12rem; 
+  font-family: "Poppins", sans-serif;
+  margin-top: 20%;
+  display: block;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  padding: 3rem; /* Añade un espacio uniforme alrededor del contenedor */
+}
+
+.post {
+  background-color: #f9f9f9; /* Color de fondo del artículo */
+  border-radius: 15px; /* Borde redondeado */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  position: relative;
 }
 
 .contenedor {
-    padding-top: 10%;
-    display: flex; 
-    width: 100%; 
+  display: flex;
+  
 }
 
-.contenedor img{
-    max-width: 100%; 
-    border-radius: 15px;
+.contenedor img {
+  max-width: 100%;
+  border-top-left-radius: 15px; /* Hace que la esquina superior izquierda de la imagen sea redondeada */
+  border-bottom-left-radius: 15px; /* Hace que la esquina inferior izquierda de la imagen sea redondeada */
 }
 
-.tittle-detalles{
-    padding-top: 10%;
-    display: flex;
-    align-items: center;
-    width: 200px;
-    margin: 0 auto;
+.contenedor .titulo small {
+  font-weight: 300;
+}
+
+.contenedor h4{
+  font-size: 0.9em;
+}
+
+.contenedor p{
+  font-size: 0.9em;
+}
+
+.contenedor .size ul{
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+}
+
+.contenedor .size ul li{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  border: solid 1px #000000;
+  padding: 0.6em;
+}
+
+.contenedor .size ul li:hover{
+  background-color: #000000;
+  color: #fff;
+}
+
+.contenedor .price{
+  display: flex;
 }
 
 .detalles {
-    flex-grow: 1; 
-    padding-left: 10rem; 
+  flex-grow: 1;
+  padding: 1.5rem; 
+}
+
+.tittle-detalles{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+.detalles h4 {
+  margin-top: 2rem;
+}
+
+.detalles p {
+  margin: 0.5rem 0;
+}
+
+
+.btn-detalles {
+  margin-left: 70%;  
+}
+
+.cart-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-button.no-background {
+  background: none; /* Establece el fondo transparente */
 }
 
 .detalles button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 15px;
-    cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 0.8em 0.9em;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 
-.detalles button:hover{
-    background-color: #b38e14;
-    color: black;
+.detalles button:hover {
+  background-color: #0c19227e;
+  color: black;
 }
+
+
 
 /*Sugerencias:*/
 .tittle-clothes{
@@ -56,6 +134,7 @@
       max-width: 900px;
       width: 95%;
       margin: 0 auto;
+      margin-bottom: 15%;
   }
     
     .slider-wrapper {
@@ -164,4 +243,5 @@
       right: 0;
       top: -10px;
       bottom: -10px;
+      
     }

@@ -12,22 +12,17 @@
 
         $filas=mysqli_num_rows($resultado);
 
-        if($filas){
-            header("Location: index.html");
-        }else{
-            ?>
-            <?php
-            include("index.php");
-            ?>
-            <script>
-                
-                function mostrarMensaje() {
-                 alert('ERROR DE AUTENTICACION');
-                }
-                mostrarMensaje();
-            </script>
-            <?php
+        
+        
+        if ($filas) {
+            echo '<script>window.location.href = "http://127.0.0.1:5501/index.html";</script>';
+        } else {
+            include("Acceso.php");
+            echo '<script>alert("ERROR DE AUTENTICACION, VERIFICA LOS DATOS.");</script>';
         }
+
+
+
 
         mysqli_free_result(($resultado));
         mysqli_close(($conexion));

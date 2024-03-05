@@ -1,17 +1,4 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.container {
+.container-acount {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +13,7 @@ body {
     box-shadow: 0px 0px 20px rgba(196, 250, 2, 0.2);
     border-radius: 10px;
     overflow: hidden;
-    width: 400px;
+    width: 600px;
 }
 
 .login-header {
@@ -103,6 +90,7 @@ button:hover {
 
 /* REGISTRO */
 .signup-container {
+
     background: #fff;
     box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.2); 
     border-radius: 10px;
