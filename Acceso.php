@@ -35,7 +35,7 @@
                 <div class="additional-options">
                     <a href="Registro.html">Crear cuenta</a>
                     <p>o</p>
-                    <a href="olvido.html">¿Olvidaste su contraseña?</a>
+                    <a href="index.html">Volveral inicio</a>
                     
                 </div><br><br>
             </div>
