@@ -22,11 +22,3 @@ DELETE FROM usuarios WHERE usu_id = 3;
 
 ALTER TABLE usuarios
 ADD contraseña varchar(64);
-
-
-
-
-
-
-
-
