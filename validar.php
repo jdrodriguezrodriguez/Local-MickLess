@@ -15,6 +15,7 @@
         
         
         if ($filas) {
+            echo '<script>alert("Bienvenido!");</script>';
             echo '<script>window.location.href = "http://127.0.0.1:5501/index.html";</script>';
         } else {
             include("Acceso.php");

@@ -33,7 +33,7 @@
                     <button class="ingresar" type="submit" value="Ingresar" >Ingresar</button>
                 </form>
                 <div class="additional-options">
-                    <a href="Registro.html">Crear cuenta</a>
+                    <a href="registro.html">Crear cuenta</a>
                     <p>o</p>
                     <a href="index.html">Volveral inicio</a>
                     

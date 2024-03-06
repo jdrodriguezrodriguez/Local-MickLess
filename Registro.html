@@ -18,20 +18,24 @@
                 <h1>Crear Cuenta</h1><br>
                 <p>¡Únete a nosotros! Completa el formulario para crear una cuenta.</p>
             </div>
-            <form class="signup-form">
+            <form action="http://localhost/Local-MickLess/registro-datos.php" method="post" class="signup-form">
                 <div class="form-group">
-                    <label for="fullname">Nombre completo:</label>
-                    <input type="text" id="fullname" name="fullname" required>
+                    <label for="fullname">Nombre:</label>
+                    <input type="text" id="name" name="nombre" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Correo electrónico:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
+                  <label for="phone">Telefono:</label>
+                  <input type="tel" id="phone" name="celular" required>
+              </div>
+                <div class="form-group">
                     <label for="newpassword">Nueva contraseña:</label>
-                    <input type="password" id="newpassword" name="newpassword" required>
+                    <input type="password" id="newpassword" name="password" required>
                 </div>
-                <button class="crear-cuenta" type="submit">Crear Cuenta</button>
+                <button class="crear-cuenta" type="submit" name="registro">Crear Cuenta</button>
             </form>
             <div class="additional-options">
                 <a href="Acceso.html">Iniciar Sesión</a>
