@@ -389,11 +389,33 @@ header{
 }
 
 /*CARRITO*/
-.Nav3{
-    margin-left: auto;
-    position: relative; 
-    margin-bottom: 3rem;   
-    padding-right: 5rem;
+.cart-icon {
+  position: relative;
+  top: -30px;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  left: 35% ;
+}
+
+.cart-icon img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.cart-icon img:hover, .cart-count:hover {
+  transform: scale(1.1);
+}
+
+.cart-count {
+  background-color: #ff0000;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 8px;
+  font-size: 14px;
 }
 
 .Nav1 ul a, .Nav2 ul a{

@@ -21,6 +21,7 @@
      <link rel="stylesheet" href="Style_Accounts.css">
      <script src="script.js" defer></script>
      <script src="script-overlay.js" defer></script>
+     <script src="script carrito.js"></script>
 </head>
 <body>
     <header>
@@ -111,9 +112,14 @@
             </div>  
             
 
-            <nav class="Nav3">
-                <ul><a href="carrito.html"><img src="image/Carrito - blanco.png" alt="" width="70"></a></ul>
-            </nav>    
+            <nav class="Nav3" >
+                <a href="carrito.html" style="text-decoration: none;">
+                  <div class="cart-icon">
+                      <img src="image/Carrito - blanco.png" alt="Carrito de Compras">
+                      <span class="cart-count">0</span>
+                  </div>
+              </a>
+              </nav>    
         </div>
     </header>
     
@@ -159,7 +165,7 @@
                         <div class="btn-detalles">
                             <button class="cart-button no-background"><img src="image/Carrito.png" width="40" alt="Icono de carrito de compras"></button>
                             <button>Metodos de pago</button>
-                            <button>Comprar</button>
+                            <button class="add-to-cart" onclick="addToCart('Zapato 1', 200)">Agregar al Carrito</button>
                         </div>
                     </div>
                     
