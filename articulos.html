@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mickless</title>
+     <!--DISEÑO PRINCIPAL-->
+     <link rel="stylesheet" href="/index.css">
+     <link rel="icon" href="./HTML/Mick Less/Proyecto final/image/icono.png">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+     <!--SECCION DE ROPA-->
+     <link rel="stylesheet" href="/Catalogo.css">
+     <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+     <!--MENU REGISTRO-->
+     <link rel="stylesheet" href="/Style_Accounts.css">
+     <script src="/script.js" defer></script>
+     <script src="/script-overlay.js" defer></script>
+     <script src="/script carrito.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="LogoPrincipal">
+          <a href="catalogo.html"><img class="ImagenPrincipal" src="/image/principal.png" width="200" class="imagen-ajustada">
+          </a>
+      </div>
+      <div class="contenedor1">
+          <div class="BarraFondo"></div>
+      </div>
+      <div class="contenedor2">
+          <div class="circulo"></div>
+      </div>
+      <div class="contenedor3">
+          <div class="CuadradoFondo"></div>
+      </div>
+
+      <div class="contenedor-nav">
+          <nav class="Nav1">
+              <ul class="desplegable">
+                  <li><a href="Hombre.html">Hombre</a>
+                      <ul>
+                          <li><a href="Hombre.html">Ropa</a></li>
+                          <li><a href="#">Accesorios</a></li>
+                          <li><a href="#">Zapatos</a></li>
+                      </ul>
+                      </li>           
+                  <li><a href="Mujer.html">Mujer</a>
+                      <ul>
+                          <li><a href="Hombre.html">Ropa</a></li>
+                          <li><a href="#">Zapatos </a></li>
+                          <li><a href="#">Accesorios </a></li>
+                          <li><a href="#">Colecciones</a></li>
+                      </ul>
+                      </li>
+                  <li><a href="Accesorios.html">Accesorios</a>
+                      <ul>
+                          <li><a href="#">Anillos</a></li>
+                          <li><a href="#">reloj</a></li>
+                          <li><a href="#">Maquillaje</a></li>
+                      </ul>
+                  </li>
+              </ul>      
+          </nav>
+
+          <nav class="menu-buscador">
+              <input class="buscador" type="text" id="input-busqueda" placeholder="Buscar aqui">
+          </nav>
+          
+          <nav class="Nav2">
+            <ul>
+                <li><a href="#" id="menu-trigger">Acceso</a></li>
+            </ul>
+          </nav>
+
+        <!--ACCESO-->
+          <div id="overlay"></div>
+        
+          <div id="menu" class="hidden">
+            <ul>
+                <h3 style="padding-bottom: 10%;">Mi cuenta</h3>
+                <li style="background-color: rgba(24, 18, 18, 0.61);"><a href="http://localhost/Local-MickLess/Acceso.php">Iniciar sesion</a></li>
+                <li style="background-color: rgb(255, 255, 255);"><a href="#" id="menu-trigger-registro">Registrarse</a></li>
+            </ul>
+          </div>       
+
+        <!--REGISTRO-->
+          <div id="overlay-registro"></div>
+        
+          <div id="menu-registro" class="hidden-registro">
+            <ul>
+              <div class="signup-header">
+                <h1>Crear Cuenta</h1><br>
+                <p>¡Únete a nosotros! <br> Completa el formulario para crear una cuenta.</p>
+            </div>
+              <form action="http://localhost/Local-MickLess/registro-datos.php" method="post" class="signup-form">
+                <div class="form-group">
+                    <label for="fullname">Nombre:</label>
+                    <input type="text" id="name" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Telefono:</label>
+                  <input type="tel" id="phone" name="celular" required>
+              </div>
+                <div class="form-group">
+                    <label for="newpassword">Nueva contraseña:</label>
+                    <input type="password" id="newpassword" name="password" required>
+                </div>
+                <button class="crear-cuenta" type="submit" name="registro">Crear Cuenta</button>
+            </form>
+            <div class="additional-options">
+              <p>o</p><br><br>
+              <a href="http://localhost/Local-MickLess/Acceso.php">Iniciar Sesión</a>
+            </ul>
+          </div>  
+          
+
+          <nav class="Nav3" >
+            <a href="carrito.html" style="text-decoration: none;">
+              <div class="cart-icon">
+                  <img src="image/Carrito - blanco.png" alt="Carrito de Compras">
+                  <span class="cart-count">0</span>
+              </div>
+          </a>
+          </nav>    
+      </div>
+
+      </nav>
+        
+    </header>
+
+<body>
+    <img  src="" width="50">
+
+
+    <section class="container-detalles">
+      <article class="post" data-ropa="Hombre">
+          <div class="contenedor">
+              <img id="imagen" src="" width="500">
+              <div class="detalles">
+
+                  <div class="tittle-detalles">
+                      <img src="/image/icono.png" width="50">
+                      <h2 style="padding: 4%;">Mick Less</h2>
+                  </div>
+                  <br>  
+                  
+                  <div class="titulo">
+                      <h3 id="nombre"><br>
+                          <small>Zapato de hombre</small>
+                      </h3>
+                  </div>
+
+                  <div class="description">
+                      <h4>Descripción</h4>
+                      <p id="descripcion"></p>
+                  </div>
+
+                  <div class="size">
+                      <h4>Tallas</h4><br>
+                      <ul>
+                          <li>37</li>
+                          <li>38</li>
+                          <li>39</li>
+                          <li>40</li>
+                      </ul>
+                  </div>
+                  <br>
+                  <div class="buy">
+                      <div class="price">
+                        <sup>$</sup>
+                        <span id="precio">200.<small>000</small></span>
+                      </div>
+
+                      <div class="btn-detalles">
+                          <button class="cart-button no-background"><img src="/image/Carrito.png" width="40" alt="Icono de carrito de compras"></button>
+                          <button>Metodos de pago</button>
+                          <button class="add-to-cart" onclick="addToCart('New Balance 550', 200)">Agregar al Carrito</button>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </article>
+    </section>
+
+    <div class="tittle-clothes">
+      <h1>Sugerencias</h1>
+  </div>
+<hr>
+  <section class="sugerencias">
+      <div class="container">
+          <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button material-symbols-rounded">
+              chevron_left
+            </button>
+            <ul class="image-list">
+              <img class="image-item" src="/image/Hombre/zapatos/bad bunny campus adidas.jpg" alt="img-1" />
+              <img class="image-item" src="/image/Hombre/zapatos/DC SHOES.jpg" alt="img-2" />
+              <a href="Catalogo hombre/New Balance 550.html"><img class="image-item" src="/image/Hombre/zapatos/New Balance 550.jpg" alt="img-3" />
+              </a>
+              <img class="image-item" src="/image/Hombre/zapatos/Nike Air Forece One one low.jpg" alt="img-4" />
+              <img class="image-item" src="/image/Hombre/zapatos/Nike Air Jordan 1.jpg" alt="img-5" />
+              <img class="image-item" src="/image/Hombre/zapatos/Versace Chain.jpg" alt="img-6" />
+              <img class="image-item" src="/image/Hombre/zapatos/Reebok Zapato Hombre Reebok Zig Dynamica 4 100033401 Verde 1.jpg" alt="img-6" />
+            </ul>
+            <button id="next-slide" class="slide-button material-symbols-rounded">
+              chevron_right
+            </button>
+          </div>
+          <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+              <div class="scrollbar-thumb"></div>
+            </div>
+          </div>
+      </div>
+    
+  </section>
+
+  <footer class="footer">
+
+      <div class="container-footer">
+    
+          <div class="footer-row">
+    
+              <div class="footer-links">
+    
+                  <h4>Compañia</h4>
+                  <ul>
+                      <li><a href="#">Nosotros</a></li>
+                      <li><a href="#">Nuestros Servicios</a></li>
+                      <li><a href="#">Politica de Privacidad</a></li>
+                  </ul>
+    
+              </div>
+              <div class="footer-links">
+    
+                  <h4>Ayuda</h4>
+                  <ul>
+                      <li><a href="#">Preguntas</a></li>
+                      <li><a href="#">Compras</a></li>
+                      <li><a href="#">Pago</a></li>
+                  </ul>
+    
+              </div>
+              <div class="footer-links">
+    
+                  <h4>Siguenos</h4>
+                  <div class="social-link">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+              </div>
+    
+          </div>
+    
+      </div>
+    
+    </footer>
+  
+
+  
+    <script>
+    // Obtener parámetros de la URL
+    const params = new URLSearchParams(window.location.search);
+    const nombre = decodeURIComponent(params.get('nombre'));
+    const descripcion = decodeURIComponent(params.get('descripcion'));
+    const precio = decodeURIComponent(params.get('precio'));
+    const imagen = decodeURIComponent(params.get('imagen'));
+
+    // Mostrar detalles del artículo
+    document.getElementById('nombre').textContent = nombre;
+    document.getElementById('descripcion').textContent = descripcion;
+    document.getElementById('precio').textContent = precio;
+    document.getElementById('imagen').src = imagen; // Usar .src en lugar de .textContent
+
+    </script>
+
+
+
+</body>
+</html>

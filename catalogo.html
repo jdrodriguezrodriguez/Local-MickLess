@@ -14,6 +14,8 @@
     />
     <!--MENU REGISTRO-->
     <link rel="stylesheet" href="Style_Accounts.css">
+    <!--SECCION DE HOMBRES-->
+    <link rel="stylesheet" href="Hombre.css">
     <script src="/script.js" defer></script>
     <script src="/script-overlay.js" defer></script>
     <script src="/script carrito.js"></script>
@@ -23,7 +25,7 @@
     <header>
       <nav>
         <div class="LogoPrincipal">
-          <a href="prueba.html"><img class="ImagenPrincipal" src="/image/principal.png" width="200" class="imagen-ajustada">
+          <a href="index.html"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
           </a>
       </div>
       <div class="contenedor1">
@@ -134,27 +136,125 @@
         
     </header>
 
-<body>
+    <!--CATEGORIAS-->
+    <section class="titulos-section">
+       
+      <div class="contenedor-titulo">
+          <h1>CATEGORIA PARA HOMBRES</h1>
+      </div>
+  </section>
 
-<h1 id="nombre"></h1>
-<p id="descripcion"></p>
+  <!--
+  <section class="categories">
 
-<script>
-// Obtener parámetros de la URL
-const params = new URLSearchParams(window.location.search);
-const nombre = decodeURIComponent(params.get('nombre'));
-const descripcion = decodeURIComponent(params.get('descripcion'));
-const imagen = decodeURIComponent(params.get('imagen'));
-const tallas = JSON.parse(decodeURIComponent(params.get('tallas')));
-const precio = decodeURIComponent(params.get('precio'));
+      <article class="post-categoria" data-categoria="camisetas">
+          <a class="no-underline" href="">
+              <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Russell camiseta atlética para entrenar para hombre.jpg" width="105" >
+              <h4>Camisetas</h4>
+          </a>
+      </article>
 
-// Mostrar detalles del artículo
-document.getElementById('nombre').textContent = nombre;
-document.getElementById('descripcion').textContent = descripcion;
+      <article class="post-categoria" data-categoria="zapatos">
+          <a class="no-underline" href="">
+              <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/DC SHOES.jpg" width="150">
+              <h4>Zapatos</h4>
+          </a>
+      </article>
 
-</script>
+      <article class="post-categoria" data-categoria="accesorios">
+          <a class="no-underline" href="">
+              <img src="image/Hombre/" width="150">
+              <h4>Accesorios</h4>
+          </a>
+      </article>
 
+      <article class="post-categoria" data-categoria="ofertas">
+          <a class="no-underline" href="">
+              <br><br><img src="image/Post - Hombre/Nike Air Jordan 1.jpg" width="150">
+              <h4>Ofertas</h4>
+          </a>
+      </article>
 
+      <article class="post-categories">
+          <a class="no-underline" href="">
+              <img src="image/Hombre/chaquetas/Chaqueta acolchada ligera y resistente al agua para hombre (disponible en tallas Big y Tall).jpg" width="85">
+              <h4>Chaquetas</h4>
+          </a>
+      </article>
+  </section> -->
+
+  <!-- CATEGORIAS -->
+
+  <section class="categorias">
+      <article class="post-categoria" data-categoria="zapatos">
+          <img src="image/Hombre/zapatos/bad bunny campus adidas.jpg" width="150" >
+          <h2>Zapatos</h2>
+      </article>
+      <article class="post-categoria" data-categoria="camisetas">
+          <img src="image/Hombre/camisetas/Russell camiseta atlética para entrenar para hombre.jpg" width="105" >
+          <h2>Camisetas</h2>
+      </article>
+      <article class="post-categoria" data-categoria="accesorios">
+          <img src="image/Accesorios unisex/Relojes/CASIO_de_pulsera_clásica_3_agujas.jpg" width="150" >
+          <h2>Accesorios</h2>
+      </article>
+      <article class="post-categoria" data-categoria="ofertas">
+          <img src="image/Hombre/camisetas/SOLY HUX Camisetas gráficas.jpg" width="105" >
+          <h2>Ofertas</h2>
+      </article>
+      <article class="post-categoria" data-categoria="chaquetas">
+          <img src="image/Hombre/chaquetas/Wrangler_Chaqueta_vaquera_sin_forro_Western_para_hombre-removebg-preview.png" width="105" >
+          <h2>Chaquetas</h2>
+      </article>
+  </section>
+  
+ <!-- PRODUCTOS -->
+
+  <div id="contenedor-articulos"></div>
+
+  <script>
+  // Cargar datos JSON
+  fetch('productos.json')
+    .then(response => response.json())
+    .then(data => {
+      const contenedor = document.getElementById('contenedor-articulos');
+
+      // Generar elementos HTML para cada artículo
+      data.forEach(articulo => {
+        const articuloHTML = `
+          <div>
+            <alt="${articulo.precio}" onclick="mostrarDetalles('${articulo.nombre}', '${articulo.descripcion}', '${articulo.precio}', '${articulo.imagen}')">
+
+            <section style="display: flex; flex-wrap: wrap;" class="productos">
+              <article class="producto zapatos" data-ropa="New Balance 550">
+                  <a href="#" class="no-underline">
+                      <h2>${articulo.nombre}</h2>
+                      <img src="${articulo.imagen}" width="200">
+                  </a>
+              </article>
+            </section>
+          </div>
+        `;
+        contenedor.innerHTML += articuloHTML;
+      });
+    })
+    .catch(error => console.error('Error cargando datos:', error));
+    
+    
+
+  // Función para mostrar detalles del artículo en la misma página
+  function mostrarDetalles(nombre, descripcion, precio, imagen) {
+    // Codificar los datos para la URL
+
+    const nombreCodificado = encodeURIComponent(nombre);
+    const descripcionCodificada = encodeURIComponent(descripcion);
+    const precioCodificado = encodeURIComponent(precio);
+    const imagenCodificado = encodeURIComponent(imagen);
+
+    // Reemplazar la página actual con los detalles del artículo
+    window.location.replace(`articulos.html?nombre=${nombreCodificado}&descripcion=${descripcionCodificada}&precio=${precioCodificado}&imagen=${imagenCodificado}`);
+  }
+  </script>
 
 </body>
 </html>
