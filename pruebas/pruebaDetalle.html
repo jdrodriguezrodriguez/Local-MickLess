@@ -6,7 +6,7 @@
     <title>Mickless</title>
     <!--DISEÑO PRINCIPAL-->
     <link rel="icon" href="image/icono.png">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link
       rel="stylesheet"
@@ -14,16 +14,16 @@
     />
     <!--MENU REGISTRO-->
     <link rel="stylesheet" href="Style_Accounts.css">
-    <script src="script.js" defer></script>
-    <script src="script-overlay.js" defer></script>
-    <script src="script carrito.js"></script>
+    <script src="/script.js" defer></script>
+    <script src="/script-overlay.js" defer></script>
+    <script src="/script carrito.js"></script>
 
   </head>
   <body>
     <header>
       <nav>
         <div class="LogoPrincipal">
-          <a href="index.html"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
+          <a href="prueba.html"><img class="ImagenPrincipal" src="/image/principal.png" width="200" class="imagen-ajustada">
           </a>
       </div>
       <div class="contenedor1">
@@ -134,88 +134,27 @@
         
     </header>
 
-<!-- DESTACADOS -->
-    <div class="tittle-clothes">
-      <h1>Nuestros Destacados</h1>
-    </div>
-    <div class="container">
-      <div class="slider-wrapper">
-        <button id="prev-slide" class="slide-button material-symbols-rounded">
-          chevron_left
-        </button>
-        <ul class="image-list">
-          <img class="image-item" src="image/Hombre/zapatos/bad bunny campus adidas.jpg" alt="img-1" />
-          <img class="image-item" src="image/Hombre/zapatos/DC SHOES.jpg" alt="img-2" />
-          <a href="New Balance 550.html"><img class="image-item" src="image/Hombre/zapatos/New Balance 550.jpg" alt="img-3" />
-          </a>
-          <img class="image-item" src="image/Hombre/zapatos/Nike Air Forece One one low.webp" alt="img-4" />
-          <img class="image-item" src="image/Hombre/zapatos/Nike Air Jordan 1.jpg" alt="img-5" />
-          <img class="image-item" src="image/Hombre/zapatos/Versace Chain.jpg" alt="img-6" />
-          <img class="image-item" src="image/Hombre/zapatos/Reebok Zapato Hombre Reebok Zig Dynamica 4 100033401 Verde 1.jpg" alt="img-6" />
-        </ul>
-        <button id="next-slide" class="slide-button material-symbols-rounded">
-          chevron_right
-        </button>
-      </div>
-      <div class="slider-scrollbar">
-        <div class="scrollbar-track">
-          <div class="scrollbar-thumb"></div>
-        </div>
-      </div>
-    </div>
+<body>
 
-    <section class="informacion">
-      <div class="info-titulo">
-        <h1 style="font-size: 2rem;">Tienda de ropa MickLess</h1><br>
-      </div>
-      <div class="info-descripcion">
-        <p style="font-size: 1.5rem;"><b >MickLess</b> Es una tienda de ropa online en la que encuentras las últimas tendencias de moda para mujer, hombre, niños, niñas y bebés. Somos una marca de ropa colombiana enfocada en fomentar un estilo de vida juvenil, femenino, relajado y urbano. Tenemos para ti los mejores estilos y diseños para que luzcas a la moda sin esfuerzo. No te pierdas lo nuevo que te trae la temporada y llévate los looks trendy que más te gusten. </p>
-      </div>
-      
-    </section>
+<h1 id="nombre"></h1>
+<p id="descripcion"></p>
 
-    
-<footer class="footer">
+<script>
+// Obtener parámetros de la URL
+const params = new URLSearchParams(window.location.search);
+const nombre = decodeURIComponent(params.get('nombre'));
+const descripcion = decodeURIComponent(params.get('descripcion'));
+const imagen = decodeURIComponent(params.get('imagen'));
+const tallas = JSON.parse(decodeURIComponent(params.get('tallas')));
+const precio = decodeURIComponent(params.get('precio'));
 
-  <div class="container-footer">
+// Mostrar detalles del artículo
+document.getElementById('nombre').textContent = nombre;
+document.getElementById('descripcion').textContent = descripcion;
 
-      <div class="footer-row">
+</script>
 
-          <div class="footer-links">
 
-              <h4>Compañia</h4>
-              <ul>
-                  <li><a href="#">Nosotros</a></li>
-                  <li><a href="#">Nuestros Servicios</a></li>
-                  <li><a href="#">Politica de Privacidad</a></li>
-              </ul>
 
-          </div>
-          <div class="footer-links">
-
-              <h4>Ayuda</h4>
-              <ul>
-                  <li><a href="#">Preguntas</a></li>
-                  <li><a href="#">Compras</a></li>
-                  <li><a href="#">Pago</a></li>
-              </ul>
-
-          </div>
-          <div class="footer-links">
-
-              <h4>Siguenos</h4>
-              <div class="social-link">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-              </div>
-          </div>
-
-      </div>
-
-  </div>
-
-</footer>
-    
-  </body>
+</body>
 </html>
