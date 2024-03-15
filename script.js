@@ -9,23 +9,31 @@ window.addEventListener('scroll', function() {
 
 /*BUSCADOR*/ 
 document.getElementById('input-busqueda').addEventListener('keydown', function(event) {
-    
     if (event.key === 'Enter') {
         var valorBusqueda = this.value.toLowerCase();
         var articles = document.querySelectorAll('#buscar article');
 
         articles.forEach(function(article) {
-            var nombreJuego = article.getAttribute('data-articulo').toLowerCase();
+            var nombreProducto = article.getAttribute('data-articulo').toLowerCase();
 
-            if (nombreJuego.includes(valorBusqueda)) {
+            if (nombreProducto.includes(valorBusqueda)) {
                 var link = article.querySelector('a');
                 if (link) {
-                    window.location.href = link.getAttribute('href');
+                    // Obtener los datos del artículo
+                    var nombreCodificado = encodeURIComponent(article.getAttribute('data-articulo'));
+                    var descripcionCodificada = encodeURIComponent(article.getAttribute('data-descripcion'));
+                    var precioCodificado = encodeURIComponent(article.getAttribute('data-precio'));
+                    var imagenCodificada = encodeURIComponent(article.getAttribute('data-imagen'));
+                    var categoriaCodificada = encodeURIComponent(article.getAttribute('data-categoria'));
+                    
+                    // Redireccionar a la página de detalles con los parámetros codificados
+                    window.location.href = `articulos.html?nombre=${nombreCodificado}&descripcion=${descripcionCodificada}&precio=${precioCodificado}&imagen=${imagenCodificada}&categoria=${categoriaCodificada}`;
                 }
             }
         });
     }
 });
+
 
 
 

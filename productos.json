@@ -3,36 +3,42 @@
     "nombre": "New Balance 550",
     "descripcion": "Las New Balance 550 son zapatillas deportivas que fusionan la nostalgia del estilo de baloncesto de los años 80 con la tecnología y el diseño contemporáneo. Confeccionadas con una parte superior de cuero o cuero sintético, y paneles de malla para mejorar la ventilación, estas zapatillas ofrecen una combinación de estilo y funcionalidad. La amortiguación ligera y cómoda proporcionada por la entresuela de espuma EVA las hace ideales tanto para actividades deportivas como para el uso diario",
     "imagen": "/image/Hombre/zapatos/New Balance 550.jpg" ,
-    "precio": 300
+    "precio": 300,
+    "categoria": "producto zapatos"
   },
   {
-    "nombre": "Camiseta",
-    "descripcion": "camisetaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "nombre": "Camiseta GORGLITTER",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "/image/Hombre/camisetas/GORGLITTER Camisetas con estampado gráfico.jpg" ,
-    "precio": 400
+    "precio": 400,
+    "categoria": "producto camisetas"
   },
   {
     "nombre": "bad bunny campus adidas",
     "descripcion": "Los Adidas Campus de Bad Bunny son una colaboración que fusiona el estilo icónico de las zapatillas Campus de Adidas con el distintivo toque urbano y creativo del famoso cantante de reguetón. Estas zapatillas capturan la esencia del estilo de Bad Bunny al combinar elementos clásicos con detalles modernos y llamativos. Confeccionadas con materiales de alta calidad y una construcción robusta, las Adidas Campus de Bad Bunny ofrecen comodidad y durabilidad, además de un estilo único y audaz. ",
     "imagen": "/image/Hombre/zapatos/bad bunny campus adidas.jpg",
-    "precio": 300
+    "precio": 300,
+    "categoria": "producto zapatos"
   },
   {
     "nombre": "Nike Air Forece One one low",
     "descripcion": "Estas zapatillas destacan por su diseño atemporal y versátil que combina perfectamente con cualquier estilo. Con una parte superior de cuero, una entresuela de espuma y una suela de goma resistente, ofrecen comodidad, durabilidad y tracción en cada paso. El diseño de corte bajo brinda una sensación de libertad en el tobillo y una apariencia elegante.",
     "imagen": "/image/Hombre/zapatos/Nike Air Forece One one low.jpg",
-    "precio": 300
+    "precio": 300,
+    "categoria": "producto zapatos"
   },
   {
     "nombre": "Nike Air Jordan 1",
     "descripcion": "Las Nike Air Jordan 1 son mucho más que zapatillas deportivas; son un ícono cultural que trasciende el mundo del baloncesto. Diseñadas originalmente para Michael Jordan en 1985, estas zapatillas revolucionaron la industria del calzado deportivo y establecieron un legado eterno. Con una parte superior de cuero de alta calidad, una entresuela con amortiguación Air-Sole y una suela de goma resistente, las Air Jordan 1 ofrecen una combinación perfecta de comodidad y rendimiento.",
     "imagen": "/image/Hombre/zapatos/Nike Air Jordan 1.jpg",
-    "precio": 300
+    "precio": 300,
+    "categoria": "producto zapatos"
   },
   {
     "nombre": "Versace Chain",
     "descripcion": "Versace Chain Reaction es una colección de zapatillas de lujo que captura la esencia audaz y distintiva de la marca italiana Versace. Estas zapatillas destacan por su diseño vanguardista y llamativo, que incorpora elementos de la moda urbana y la alta costura. La característica más notable de la Chain Reaction es su suela gruesa con eslabones de cadena, que le da un aspecto único y reconocible al calzado.",
     "imagen": "/image/Hombre/zapatos/Versace Chain.jpg",
-    "precio": 300
+    "precio": 300,
+    "categoria": "producto zapatos"
   }
 ]
