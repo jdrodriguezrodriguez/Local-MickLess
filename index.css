@@ -527,7 +527,7 @@ body footer {
   background-color: #00C3FF;
 }
 
-/*RESOLUCION 768*/
+/*RESOLUCION 768
 @media only screen and (max-width: 768px) {
   .contenedor2, .circulo, .contenedor3, .CuadradoFondo, .LogoPrincipal {
     display: none;
@@ -540,7 +540,6 @@ body footer {
     width: 100%; 
     margin: 1rem auto; 
   }
-  /*NAV 1:*/
   .Nav1 ul a, .Nav2 ul a{
     padding: 3rem 3rem 2rem 3rem;
     font-size: 24px; 
@@ -553,8 +552,6 @@ body footer {
   .Nav1 ul a:hover, .Nav2 ul a:hover{
     color: rgb(151, 0, 0); 
   }
-  /*MENU:*/
-/*MENU DESPLEGABLE*/
 .desplegable{
     list-style-type: none;
     padding: 0;
@@ -598,9 +595,6 @@ body footer {
     width: 200%;
 }
 
-  
-  
-  
 }
 
 @media(max-width:991px) {
@@ -634,4 +628,4 @@ body footer {
     .slider-scrollbar .scrollbar-thumb {
       width: 20%;
     }
-  }
+  }*/
