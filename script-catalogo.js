@@ -30,8 +30,8 @@
 
     // Función para mostrar detalles del artículo en la misma página
     function mostrarDetalles(nombre, descripcion, precio, imagen, categoria) {
+     
       // Codificar los datos para la URL
-
       const nombreCodificado = encodeURIComponent(nombre);
       const descripcionCodificada = encodeURIComponent(descripcion);
       const precioCodificado = encodeURIComponent(precio);

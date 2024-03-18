@@ -9,7 +9,7 @@ fetch('productos.json')
 
     // Iterar sobre cada producto
     productos.forEach(producto => {
-      // Acceder a las propiedades de cada producto
+
       const nombre = producto.nombre;
       const categoria = producto.categoria;
       const imagen = producto.imagen;
@@ -18,8 +18,7 @@ fetch('productos.json')
       const precioEntero = producto.precio.entero;
       const precioDecimal = producto.precio.decimal;
 
-      // Aquí puedes usar la información para generar dinámicamente el contenido de tus páginas de producto
-      // Por ejemplo, puedes insertar esta información en la plantilla HTML
+      
 
       // Crear elementos HTML y asignarles los datos del producto
       const containerDetalles = document.querySelector('.container-detalles');

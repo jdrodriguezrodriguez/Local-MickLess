@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; 
     font-family: Arial, sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #fff; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     bottom: 15rem;
@@ -22,7 +22,7 @@ body {
 }
 
 .product {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; 
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -31,8 +31,8 @@ body {
 
 .add-to-cart {
     padding: 8px 20px;
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #4CAF50; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -40,13 +40,13 @@ body {
 }
 
 .add-to-cart:hover {
-    background-color: #45a049;
+    background-color: #45a049; 
 }
 
 .cart {
     margin-top: 30px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #fff; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -56,20 +56,19 @@ body {
 }
 
 .cart-items li {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; 
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
-
 .remove-from-cart {
     position: relative;
     left: 1rem;
     padding: 8px 20px;
-    background-color: #ff6347; 
-    color: #fff;
+    background-color: #f0ff48; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -77,13 +76,13 @@ body {
 }
 
 .remove-from-cart:hover {
-    background-color: #ff3b20; 
+    background-color: #e5ff0000; 
 }
 
 .continue-shopping {
     padding: 8px 20px;
     background-color: #007bff; 
-    color: #fff;
+    color: #fff; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -91,15 +90,15 @@ body {
 }
 
 .continue-shopping:hover {
-    background-color: #0056b3; 
+    background-color: #c0ff04; 
 }
 
 .continue-shopping-button {
     margin: 2rem 0 2rem 0;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6347;
-    color: white;
+    background-color: #dbff4c; 
+    color: white; 
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -110,7 +109,7 @@ body {
 }
 
 .continue-shopping-button:hover {
-    background-color: #ff3b20;
+    background-color: #f2ff00; 
 }
 
 .continue-shopping-button:active {
@@ -120,12 +119,78 @@ body {
 /*BTN PAGAR*/
 .pay button{
     margin-top: 2%;
-    background-color: #333;
-    color: #fff;
+    background-color: #dee112; 
+    color: #fff; 
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
     padding: 0.8em 0.9em;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
-  }
+}
+
+
+.remove-from-cart,
+.continue-shopping-button,
+.pay button {
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+.remove-from-cart {
+    background-color: #ff0000; 
+}
+
+.continue-shopping-button {
+    background-color: #f6be00; 
+}
+
+.pay button {
+    background-color: #f6be00; 
+}
+
+
+
+.continue-shopping-button:hover,
+.pay button:hover {
+    background-color: #0095ff; 
+}
+
+.remove-from-cart:hover{
+    background-color: #ff0000a4;
+}
+
+/* CSS */
+.vaciar-carrito-button {
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.vaciar-carrito-button:hover {
+    background-color: #ff0000a4; 
+}
+
+.vaciar-carrito-button{
+    background-color: #ff0000;
+}
+
+
+
+
+
+

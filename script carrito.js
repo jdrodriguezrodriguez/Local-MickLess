@@ -162,4 +162,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// JavaScript
+document.getElementById("vaciar-carrito").addEventListener("click", vaciarCarrito);
+
+function vaciarCarrito() {
+    // Obtener la lista de elementos del carrito
+    var carritoItems = document.querySelector(".cart-items");
+    
+    // Vaciar la lista de elementos del carrito
+    carritoItems.innerHTML = "";
+
+    // Actualizar el total a cero
+    document.querySelector(".total-amount").innerText = "Total: $0";
+}
+
+
 
