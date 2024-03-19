@@ -1,215 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mickless</title>
-     <!--DISEÑO PRINCIPAL-->
-    <link rel="stylesheet" href="index.css">
+    <!--DISEÑO PRINCIPAL-->
     <link rel="icon" href="image/icono.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <!--SECCION DE HOMBRES-->
     <link rel="stylesheet" href="Hombre.css">
-</head>
-<body>
+    <script src="script.js" defer></script>
+    <script src="script-overlay.js" defer></script>
+    <script src="script carrito.js"></script>
+
+  </head>
+  <body>
     <header>
+      <nav>
+        <div class="LogoPrincipal">
+          <a href="index.html"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
+          </a>
+      </div>
+      <div class="contenedor1">
+          <div class="BarraFondo"></div>
+      </div>
+      <div class="contenedor2">
+          <div class="circulo"></div>
+      </div>
+      <div class="contenedor3">
+          <div class="CuadradoFondo"></div>
+      </div>
 
-        <div class="contenedor-header">
-            <div class="LogoPrincipal">
-                <a href="index.html"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
-                </a>
-            </div>
-            <div class="contenedor1">
-                <div class="BarraFondo"></div>
-            </div>
-            <div class="contenedor2">
-                <div class="circulo"></div>
-            </div>
-            <div class="contenedor3">
-                <div class="CuadradoFondo"></div>
-            </div>
+      <div class="contenedor-nav">
+          <nav class="Nav1">
+              <ul class="desplegable">
+                  <li><a href="catalogo.html">Hombre</a>
+                      <ul>
+                          <li><a href="catalogo.html">Ropa</a></li>
+                          <li><a href="#">Accesorios</a></li>
+                          <li><a href="#">Zapatos</a></li>
+                      </ul>
+                      </li>           
+                  <li><a href="Mujer.html">Mujer</a>
+                      <ul>
+                          <li><a href="Hombre.html">Ropa</a></li>
+                          <li><a href="#">Zapatos </a></li>
+                          <li><a href="#">Accesorios </a></li>
+                          <li><a href="#">Colecciones</a></li>
+                      </ul>
+                      </li>
+                  <li><a href="Accesorios.html">Accesorios</a>
+                      <ul>
+                          <li><a href="#">Anillos</a></li>
+                          <li><a href="#">reloj</a></li>
+                          <li><a href="#">Maquillaje</a></li>
+                      </ul>
+                  </li>
+              </ul>      
+          </nav>
 
-        </div>
-       
+          <nav class="menu-buscador">
+              <input class="buscador" type="text" id="input-busqueda" placeholder="Buscar aqui">
+          </nav>
+          
+          <nav class="Nav2">
+            <ul>
+                <li><a href="#" id="menu-trigger">Acceso</a></li>
+            </ul>
+          </nav>
 
-        <div class="contenedor-nav">
-            <nav class="Nav1">
-                <ul class="desplegable">
-                    <li><a href="Hombre.html">Hombre</a>
-                        <ul>
-                            <li><a href="#">Ropa</a></li>
-                            <li><a href="#">Accesorios</a></li>
-                            <li><a href="#">Zapatos</a></li>
-                        </ul>
-                        </li>           
-                    <li><a href="Mujer.html">Mujer</a>
-                        <ul>
-                            <li><a href="#">Ropa</a></li>
-                            <li><a href="#">Zapatos </a></li>
-                            <li><a href="#">Accesorios </a></li>
-                            <li><a href="#">Colecciones</a></li>
-                        </ul>
-                        </li>
-                    <li><a href="Accesorios.html">Accesorios</a>
-                        <ul>
-                            <li><a href="#">Anillos</a></li>
-                            <li><a href="#">reloj</a></li>
-                            <li><a href="#">Maquillaje</a></li>
-                        </ul>
-                    </li>
-                </ul>      
-            </nav>
+        <!--ACCESO-->
+          <div id="overlay"></div>
+        
+          <div id="menu" class="hidden">
+            <ul>
+                <h3 style="padding-bottom: 10%;">Mi cuenta</h3>
+                <li style="background-color: rgba(24, 18, 18, 0.61);"><a href="http://localhost/Local-MickLess/Acceso.php">Iniciar sesion</a></li>
+                <li style="background-color: rgb(255, 255, 255);"><a href="#" id="menu-trigger-registro">Registrarse</a></li>
+            </ul>
+          </div>       
 
-            <nav class="menu-buscador">
-                <input class="buscador" type="text" id="input-busqueda" placeholder="Buscar aqui">
-            </nav>
-            
-            <nav class="Nav2">
-                <ul>
-                    <li><a href="#" id="menu-trigger">Acceso</a></li>
-                </ul>
-              </nav>
-            
-              <div id="overlay"></div>
-            
-              <div id="menu" class="hidden">
-                <ul>
-                    <h3 style="padding-bottom: 10%;">Mi cuenta</h3>
-                    <li style="background-color: rgba(24, 18, 18, 0.61);"><a href="Acceso.html">Iniciar seccion</a></li>
-                    <li style="background-color: rgb(255, 255, 255);"><a href="Registro.html">Registrarse</a></li>
-                </ul>
-              </div> 
-              
-            <nav class="Nav3">
-                <ul><a href="carrito.html"><img src="image/Carrito - blanco.png" alt="" width="70"></a></ul>
-            </nav>    
-        </div>
+          <!--REGISTRO-->
+          <div id="overlay-registro"></div>
+        
+          <div id="menu-registro" class="hidden-registro">
+
+            <ul>
+              <div class="signup-header">
+                <h1 style="color: wheat;">Crear Cuenta</h1><br>
+                <p>¡Únete a nosotros! <br> Completa el formulario para crear una cuenta.</p>
+            </div>
+           
+            <form action="http://localhost/Local-MickLess/registro-datos.php" method="post">
+
+              <h1>Registro</h1>
+              <div class="input-box">
+                  <ion-icon name="person-outline"></ion-icon>
+                  <input type="text" id="name" name="nombre" required>
+                  <label for="">Nombre</label>
+              </div>
+              <div class="input-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <input type="email" id="email" name="email" required>
+                  <label for="">Correo Electrónico</label>
+              </div>
+              <div class="input-box">
+                  <ion-icon name="lock-closed-outline"></ion-icon>
+                  <input  type="password" id="newpassword" name="password" required>
+                  <label for="">Contraseña</label>
+              </div>
+              <div class="input-box">
+                  <ion-icon name="lock-closed-outline"></ion-icon>
+                  <input  type="password" id="newpassword" name="password" required>
+                  <label for="">Confirmar Contraseña</label>
+              </div>
+              <button class="btn-registrar" type="submit" name="registro">Registrarse</button>
+              <div class="login">
+                  <p>¿Ya tienes una cuenta? <a href="./Acceso.php">Inicia Sesión</a></p>
+              </div>
+           </form>
+
+          </div>  
+
+          <!--Script OVERLAY (Registro)-->
+          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+          
+
+          <nav class="Nav3" >
+            <a href="carrito.html" style="text-decoration: none;">
+              <div class="cart-icon">
+                  <img src="image/Carrito - blanco.png" alt="Carrito de Compras">
+                  <span class="cart-count">0</span>
+              </div>
+          </a>
+          </nav>    
+      </div>
+
+      </nav>
+        
     </header>
 
     <!--CATEGORIAS-->
     <section class="titulos-section">
        
-        <div class="contenedor-titulo">
-            <h1>CATEGORIA PARA MUJERES</h1>
-        </div>
-    </section>
-            
-    <section class="categories">
+      <div class="contenedor-titulo">
+          <h1>CATEGORIA PARA MUJERES</h1>
+      </div>
+  </section>
 
-        <article class="post-categories">
-            <a class="no-underline" href="">
-                <img src="image/Post - Hombre/bad bunny campus adidas.jpg" width="150" >
-                <h4>Camisetas</h4>
-            </a>
-        </article>
+  <!--
+  <section class="categories">
 
-        <article class="post-categories">
-            <a class="no-underline" href="">
-                <img src="image/Post - Hombre//DC SHOES.jpg" width="150">
-                <h4>Zapatos</h4>
-            </a>
-        </article>
+      <article class="post-categoria" data-categoria="camisetas">
+          <a class="no-underline" href="">
+              <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Russell camiseta atlética para entrenar para hombre.jpg" width="105" >
+              <h4>Camisetas</h4>
+          </a>
+      </article>
 
-        <article class="post-categories">
-            <a class="no-underline" href="">
-                <img src="image/Post - Hombre/Nike Air Forece One one low.webp" width="150">
-                <h4>Accesorios</h4>
-            </a>
-        </article>
+      <article class="post-categoria" data-categoria="zapatos">
+          <a class="no-underline" href="">
+              <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/DC SHOES.jpg" width="150">
+              <h4>Zapatos</h4>
+          </a>
+      </article>
 
-        <article class="post-categories">
-            <a class="no-underline" href="">
-                <br><br><img src="image/Post - Hombre/Nike Air Jordan 1.jpg" width="150">
-                <h4>Ofertas</h4>
-            </a>
-        </article>
+      <article class="post-categoria" data-categoria="accesorios">
+          <a class="no-underline" href="">
+              <img src="image/Hombre/" width="150">
+              <h4>Accesorios</h4>
+          </a>
+      </article>
 
-        <article class="post-categories">
-            <a class="no-underline" href="">
-                <img src="image/Post - Hombre/New Balance 550.jpg" width="150">
-                <h4>Gorras</h4>
-            </a>
-        </article>
-    </section>
+      <article class="post-categoria" data-categoria="ofertas">
+          <a class="no-underline" href="">
+              <br><br><img src="image/Post - Hombre/Nike Air Jordan 1.jpg" width="150">
+              <h4>Ofertas</h4>
+          </a>
+      </article>
 
-    
-    <!--ARTICULOS
-    <section class="articulos">
-        <div class="container">
-            <h1>Calzado Para Hombre Elegante</h1>
-            <div class="product">
-                <div class="product-image">
-                    <img src="" alt="Zapato 1" width="200">
-                </div>
-                <div class="product-info">
-                    <h2>Tenis Skechers Sport Rf: 119 </h2>
-                    <p>Precio: $500.000</p>
-                    <h5>en 12x$8.333 sin interes </h5>
-                    <h5>Envio gratis</h5>
-                    <button>Añadir al carrito</button>
-                </div>
-            </div>
-            <div class="product">
-                <div class="product-image">
-                    <img src="" alt="Zapato 2" width="200">
-                </div>
-                <div class="product-info">
-                    <h2></h2>
-                    <p>Precio: $400.000</p>
-                    <h5>en 12x$8.333 sin interes </h5>
-                    <h5>Envio gratis</h5>
-                    <button>Añadir al carrito</button>
-                </div>
-            </div>  
-        </div>
-    </section>-->
+      <article class="post-categories">
+          <a class="no-underline" href="">
+              <img src="image/Hombre/chaquetas/Chaqueta acolchada ligera y resistente al agua para hombre (disponible en tallas Big y Tall).jpg" width="85">
+              <h4>Chaquetas</h4>
+          </a>
+      </article>
+  </section> -->
 
-    <section class="containerh">
+  <!-- CATEGORIAS -->
 
-        <article class="post" data-ropa="Hombre">
-            <a href="Catalogo hombre/New Balance 550.html" class="no-underline">
-                <h2>Zapato Deportivo</h2>
-                <img src="/HTML/Mick Less/Proyecto final/image/" width="400">
-            </a>
-        </article>
+  <section class="categorias">
+      <article class="post-categoria" data-categoria="zapatos">
+          <img src="image/Mujer/" width="150" >
+          <h2>Zapatos</h2>
+      </article>
+      <article class="post-categoria" data-categoria="camisetas">
+          <img src="image/Mujer/" width="105" >
+          <h2>Camisetas</h2>
+      </article>
+      <article class="post-categoria" data-categoria="accesorios">
+          <img src="image/Mujer/" width="150" >
+          <h2>Accesorios</h2>
+      </article>
+      <article class="post-categoria" data-categoria="ofertas">
+          <img src="image/Mujer/" width="105" >
+          <h2>Ofertas</h2>
+      </article>
+      <article class="post-categoria" data-categoria="chaquetas">
+          <img src="image/Mujer/" width="105" >
+          <h2>Chaquetas</h2>
+      </article>
+  </section>
+  
+ <!-- PRODUCTOS -->
 
-        <article class="post" data-ropa="Hombre">
-            <a href="#" class="no-underline">
-                <h2>Zapato Deportivo</h2>
-                <img src="/HTML/Mick Less/Proyecto final/image/" width="400">
-            </a>
-        </article>
+  <div id="contenedor-articulos"></div>
+  <script src="script-catalogo.js"></script>
 
-        <article class="post" data-ropa="Hombre">
-            <a href="#" class="no-underline">
-                <h2>Zapato Deportivo</h2>
-                <img src="/HTML/Mick Less/Proyecto final/image/" width="400">
-            </a>
-        </article>
-
-        <article class="post" data-ropa="Hombre">
-            <a href="#" class="no-underline">
-                <h2>Zapato Deportivo</h2>
-                <img src="/HTML/Mick Less/Proyecto final/image/" width="400">
-            </a>
-        </article>
-
-        <article class="post" data-ropa="Hombre">
-            <a href="#" class="no-underline">
-                <h2>Zapato Deportivo</h2>
-                <img src="/HTML/Mick Less/Proyecto final/image/" width="400">
-            </a>
-        </article>
-
-        <article class="post" data-ropa="Hombre">
-            <a href="#" class="no-underline">
-                <h2>Zapato Deportivo</h2>
-                <img src="/HTML/Mick Less/Proyecto final/image/" width="400">
-            </a>
-        </article>
-
-    </section>
-
-    <script src="script.js"></script>
-    
 </body>
 </html>

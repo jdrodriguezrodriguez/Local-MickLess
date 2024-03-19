@@ -162,19 +162,27 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// JavaScript
 document.getElementById("vaciar-carrito").addEventListener("click", vaciarCarrito);
 
 function vaciarCarrito() {
-    // Obtener la lista de elementos del carrito
+   
     var carritoItems = document.querySelector(".cart-items");
-    
-    // Vaciar la lista de elementos del carrito
     carritoItems.innerHTML = "";
 
-    // Actualizar el total a cero
+    localStorage.removeItem('cart');
+
+   document.querySelector('.cart-count').textContent = '0';
+
+    
     document.querySelector(".total-amount").innerText = "Total: $0";
 }
+
+document.querySelector('.continue-shopping-button').addEventListener('click', function() {
+    
+});
+
+
+
 
 
 
