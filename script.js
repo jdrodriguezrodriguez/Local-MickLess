@@ -17,18 +17,12 @@ document.getElementById('input-busqueda').addEventListener('keydown', function(e
             var nombreProducto = article.getAttribute('data-articulo').toLowerCase();
 
             if (nombreProducto.includes(valorBusqueda)) {
-                var link = article.querySelector('a');
-                if (link) {
-                    // Obtener los datos del artículo
-                    var nombreCodificado = encodeURIComponent(article.getAttribute('data-articulo'));
-                    var descripcionCodificada = encodeURIComponent(article.getAttribute('data-descripcion'));
-                    var precioCodificado = encodeURIComponent(article.getAttribute('data-precio'));
-                    var imagenCodificada = encodeURIComponent(article.getAttribute('data-imagen'));
-                    var categoriaCodificada = encodeURIComponent(article.getAttribute('data-categoria'));
-                    
-                    // Redireccionar a la página de detalles con los parámetros codificados
-                    window.location.href = `articulos.html?nombre=${nombreCodificado}&descripcion=${descripcionCodificada}&precio=${precioCodificado}&imagen=${imagenCodificada}&categoria=${categoriaCodificada}`;
-                }
+                var nombre = article.getAttribute('data-articulo');
+                var descripcion = article.getAttribute('description');
+                var precio = article.getAttribute('alt');
+                var imagen = article.querySelector('img').src;
+
+                mostrarDetalles(nombre, descripcion, precio, imagen);
             }
         });
     }

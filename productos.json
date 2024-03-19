@@ -28,13 +28,6 @@
     "categoria": "producto zapatos"
   },
   {
-    "nombre": "Nike Air Jordan 1",
-    "descripcion": "Las Nike Air Jordan 1 son mucho más que zapatillas deportivas; son un ícono cultural que trasciende el mundo del baloncesto. Diseñadas originalmente para Michael Jordan en 1985, estas zapatillas revolucionaron la industria del calzado deportivo y establecieron un legado eterno. Con una parte superior de cuero de alta calidad, una entresuela con amortiguación Air-Sole y una suela de goma resistente, las Air Jordan 1 ofrecen una combinación perfecta de comodidad y rendimiento.",
-    "imagen": "image/Hombre/zapatos/Nike Air Jordan 1.jpg",
-    "precio": 300,
-    "categoria": "producto zapatos"
-  },
-  {
     "nombre": "Versace Chain",
     "descripcion": "Versace Chain Reaction es una colección de zapatillas de lujo que captura la esencia audaz y distintiva de la marca italiana Versace. Estas zapatillas destacan por su diseño vanguardista y llamativo, que incorpora elementos de la moda urbana y la alta costura. La característica más notable de la Chain Reaction es su suela gruesa con eslabones de cadena, que le da un aspecto único y reconocible al calzado.",
     "imagen": "image/Hombre/zapatos/Versace Chain.jpg",

@@ -229,7 +229,7 @@ input:valid ~ label {
   text-decoration: underline;
 }
 
-button {
+.btn-registrar {
   width: 70%;
   height: 40px;
   border-radius: 20px; 
