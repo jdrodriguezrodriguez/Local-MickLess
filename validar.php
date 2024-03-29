@@ -16,7 +16,7 @@
         
         if ($filas) {
             echo '<script>alert("Bienvenido!");</script>';
-            echo '<script>window.location.href = "index.html";</script>';
+            echo '<script>window.location.href = "index.php";</script>';
         } else {
             include("Acceso.php");
             echo '<script>alert("ERROR DE AUTENTICACION, VERIFICA LOS DATOS.");</script>';

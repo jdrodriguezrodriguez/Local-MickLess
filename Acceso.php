@@ -26,7 +26,8 @@
             </div>
             <button type="submit" value="Ingresar" >Iniciar</button>
             <div class="register">
-                <p>No tienes cuenta? <a href="./registro.php">Registrate</a></p>
+                <p>No tienes cuenta? <a href="registro.php">Registrate</a></p><br>
+                <p><a href="index.php">Volver al inicio</a></p>
             </div>
         </form>
     </section>

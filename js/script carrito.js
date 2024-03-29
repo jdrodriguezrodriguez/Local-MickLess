@@ -167,7 +167,7 @@ document.getElementById("vaciar-carrito").addEventListener("click", vaciarCarrit
 function vaciarCarrito() {
    
     var carritoItems = document.querySelector(".cart-items");
-    carritoItems.innerHTML = "";
+    carritoItems.innerPHP = "";
 
     localStorage.removeItem('cart');
 

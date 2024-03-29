@@ -14,16 +14,16 @@
     <!--CARRITO:-->
     <link rel="stylesheet" href="carrito.css">
     
-    <script src="script.js" defer></script>
-    <script src="script-overlay.js" defer></script>
-    <script src="script carrito.js"></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/script-overlay.js" defer></script>
+    <script src="./js/script carrito.js"></script>
 
 
   </head>
   <body>
     <header>
         <div class="LogoPrincipal">
-            <a href="index.html"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
+            <a href="index.php"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
             </a>
         </div>
         <div class="contenedor1">
@@ -155,7 +155,7 @@
         </div>
 
         <!-- Botón para seguir comprando -->
-        <a href="index.html" class="continue-shopping-button">Seguir Comprando</a>
+        <a href="index.php" class="continue-shopping-button">Seguir Comprando</a>
         
         <button id="vaciar-carrito" class="vaciar-carrito-button">Vaciar Carrito</button>
 
@@ -166,6 +166,8 @@
 
         <div class="pay">
           <button>Pagar</button>
+           
+          <a href="pagar.php">pagar</a>
         </div>
     </div>
 

@@ -29,9 +29,6 @@ document.getElementById('input-busqueda').addEventListener('keydown', function(e
 });
 
 
-
-
-
 /*CATEGORIAS:*/
 document.querySelectorAll('.categorias article').forEach(function(categoria) {
     categoria.addEventListener('click', function() {
@@ -47,6 +44,7 @@ document.querySelectorAll('.categorias article').forEach(function(categoria) {
     });
 });
 
+/*GESTION DE ACCESO:*/
 
 
 

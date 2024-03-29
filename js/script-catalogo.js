@@ -1,11 +1,11 @@
 
-    // Cargar datos JSON
+    //LLAMAR ARCHIVO JSON
     fetch('productos.json')
       .then(response => response.json())
       .then(data => {
         const contenedor = document.getElementById('contenedor-articulos');
 
-        // Generar elementos HTML para cada artículo
+        //GENERAMOS ELEMENTOS HTML
         data.forEach(articulo => {
           const articuloHTML = `
             <div id="buscar" class="div-productos">
@@ -28,16 +28,16 @@
       
       
 
-    // Función para mostrar detalles del artículo en la misma página
+    //FUNCION PAR MOSTRAR LOS DETALLES
     function mostrarDetalles(nombre, descripcion, precio, imagen, categoria) {
      
-      // Codificar los datos para la URL
+      //CODIFICAR
       const nombreCodificado = encodeURIComponent(nombre);
       const descripcionCodificada = encodeURIComponent(descripcion);
       const precioCodificado = encodeURIComponent(precio);
       const imagenCodificado = encodeURIComponent(imagen);
       const categoriaCodificado = encodeURIComponent(categoria);
 
-      // Reemplazar la página actual con los detalles del artículo
+      //URL:
       window.location.replace(`articulos.html?nombre=${nombreCodificado}&descripcion=${descripcionCodificada}&precio=${precioCodificado}&imagen=${imagenCodificado}&categoria=${categoriaCodificado}`);
     }

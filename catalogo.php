@@ -12,18 +12,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
     />
-    <!--MENU REGISTRO-->
-    <script src="script.js" defer></script>
-    <script src="script-overlay.js" defer></script>
-    <script src="script carrito.js"></script>
-    
+    <!--SECCION DE HOMBRES-->
+    <link rel="stylesheet" href="Hombre.css">
+    <script src="./js/script.js" defer></script>
+    <script src="./js/script-overlay.js" defer></script>
+    <script src="./js/script carrito.js"></script>
 
   </head>
   <body>
     <header>
       <nav>
         <div class="LogoPrincipal">
-          <a href="index.html"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
+          <a href="index.php"><img class="ImagenPrincipal" src="image/principal.png" width="200" class="imagen-ajustada">
           </a>
       </div>
       <div class="contenedor1">
@@ -41,7 +41,7 @@
               <ul class="desplegable">
                   <li><a href="catalogo.html">Hombre</a>
                       <ul>
-                          <li><a href="Hombre.html">Ropa</a></li>
+                          <li><a href="catalogo.html">Ropa</a></li>
                           <li><a href="#">Accesorios</a></li>
                           <li><a href="#">Zapatos</a></li>
                       </ul>
@@ -85,7 +85,7 @@
             </ul>
           </div>       
 
-        <!--REGISTRO-->
+          <!--REGISTRO-->
           <div id="overlay-registro"></div>
         
           <div id="menu-registro" class="hidden-registro">
@@ -130,10 +130,10 @@
           <!--Script OVERLAY (Registro)-->
           <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+          
 
-          <!--CARRITO:-->
           <nav class="Nav3" >
-            <a href="carrito.html" style="text-decoration: none;">
+            <a href="carrito.php" style="text-decoration: none;">
               <div class="cart-icon">
                   <img src="image/Carrito - blanco.png" alt="Carrito de Compras">
                   <span class="cart-count">0</span>
@@ -146,91 +146,84 @@
         
     </header>
 
-<!-- DESTACADOS -->
-    <div class="tittle-clothes">
-      <h1>Nuestros Destacados</h1>
-    </div>
-    <div class="container">
-      <div class="slider-wrapper">
-        <button id="prev-slide" class="slide-button material-symbols-rounded">
-          chevron_left
-        </button>
-        <ul class="image-list">
-          <img class="image-item" src="image/Hombre/zapatos/bad bunny campus adidas.jpg" alt="img-1" />
-          <img class="image-item" src="image/Hombre/zapatos/DC SHOES.jpg" alt="img-2" />
-          <a href="New Balance 550.html"><img class="image-item" src="image/Hombre/zapatos/New Balance 550.jpg" alt="img-3" />
+    <!--CATEGORIAS-->
+    <section class="titulos-section">
+       
+      <div class="contenedor-titulo">
+          <h1>CATEGORIA PARA HOMBRES</h1>
+      </div>
+  </section>
+
+  <!--
+  <section class="categories">
+
+      <article class="post-categoria" data-categoria="camisetas">
+          <a class="no-underline" href="">
+              <img src="/HTML/Mick Less/Proyecto final/image/Hombre/camisetas/Russell camiseta atlética para entrenar para hombre.jpg" width="105" >
+              <h4>Camisetas</h4>
           </a>
-          <img class="image-item" src="image/Hombre/zapatos/Nike Air Forece One one low.jpg" alt="img-4" />
-          <img class="image-item" src="image/Hombre/zapatos/adidas-adi-3000-purple.png" alt="img-5" />
-          <img class="image-item" src="image/Hombre/zapatos/Versace Chain.jpg" alt="img-6" />
-          <img class="image-item" src="image/Hombre/zapatos/adidas_Zapato_Hombre_adidas_Performance_Grand_Court_Base-removebg-preview.png" alt="img-6" />
-        </ul>
-        <button id="next-slide" class="slide-button material-symbols-rounded">
-          chevron_right
-        </button>
-      </div>
-      <div class="slider-scrollbar">
-        <div class="scrollbar-track">
-          <div class="scrollbar-thumb"></div>
-        </div>
-      </div>
-    </div>
+      </article>
 
-    <section class="informacion">
-      <div class="info-titulo">
-        <h1 style="font-size: 2rem;">Tienda de ropa MickLess</h1><br>
-      </div>
-      <div class="info-descripcion">
-        <p style="font-size: 1.5rem;"><b >MickLess</b> Es una tienda de ropa online en la que encuentras las últimas tendencias de moda para mujer, hombre, niños, niñas y bebés. Somos una marca de ropa colombiana enfocada en fomentar un estilo de vida juvenil, femenino, relajado y urbano. Tenemos para ti los mejores estilos y diseños para que luzcas a la moda sin esfuerzo. No te pierdas lo nuevo que te trae la temporada y llévate los looks trendy que más te gusten. </p>
-      </div>
-      
-    </section>
+      <article class="post-categoria" data-categoria="zapatos">
+          <a class="no-underline" href="">
+              <img src="/HTML/Mick Less/Proyecto final/image/Hombre/zapatos/DC SHOES.jpg" width="150">
+              <h4>Zapatos</h4>
+          </a>
+      </article>
 
-    
-<footer class="footer">
+      <article class="post-categoria" data-categoria="accesorios">
+          <a class="no-underline" href="">
+              <img src="image/Hombre/" width="150">
+              <h4>Accesorios</h4>
+          </a>
+      </article>
 
-  <div class="container-footer">
+      <article class="post-categoria" data-categoria="ofertas">
+          <a class="no-underline" href="">
+              <br><br><img src="image/Post - Hombre/Nike Air Jordan 1.jpg" width="150">
+              <h4>Ofertas</h4>
+          </a>
+      </article>
 
-      <div class="footer-row">
+      <article class="post-categories">
+          <a class="no-underline" href="">
+              <img src="image/Hombre/chaquetas/Chaqueta acolchada ligera y resistente al agua para hombre (disponible en tallas Big y Tall).jpg" width="85">
+              <h4>Chaquetas</h4>
+          </a>
+      </article>
+  </section> -->
 
-          <div class="footer-links">
+  <!-- CATEGORIAS -->
 
-              <h4>Compañia</h4>
-              <ul>
-                  <li><a href="#">Nosotros</a></li>
-                  <li><a href="#">Nuestros Servicios</a></li>
-                  <li><a href="#">Politica de Privacidad</a></li>
-              </ul>
+  <section class="categorias">
+      <article class="post-categoria" data-categoria="zapatos">
+          <img src="image/Hombre/zapatos/bad bunny campus adidas.jpg" width="150" >
+          <h2>Zapatos</h2>
+      </article>
+      <article class="post-categoria" data-categoria="camisetas">
+          <img src="image/Hombre/camisetas/Russell_camiseta_atlética_para_entrenar_para_hombre-removebg-preview.png" width="105" >
+          <h2>Camisetas</h2>
+      </article>
+      <article class="post-categoria" data-categoria="accesorios">
+          <img src="image/Accesorios unisex/Relojes/CASIO_de_pulsera_clásica_3_agujas.jpg" width="150" >
+          <h2>Accesorios</h2>
+      </article>
+      <article class="post-categoria" data-categoria="ofertas">
+          <img src="image/Hombre/camisetas/SOLY_HUX_Camisetas_gráficas-removebg-preview.png" width="105" >
+          <h2>Ofertas</h2>
+      </article>
+      <article class="post-categoria" data-categoria="chaquetas">
+          <img src="image/Hombre/chaquetas/Wrangler_Chaqueta_vaquera_sin_forro_Western_para_hombre-removebg-preview.png" width="105" >
+          <h2>Chaquetas</h2>
+      </article>
+  </section>
+  
+ <!-- PRODUCTOS -->
 
-          </div>
-          <div class="footer-links">
+  <div id="contenedor-articulos"></div>
+  <script src="./js/script-catalogo.js"></script>
 
-              <h4>Ayuda</h4>
-              <ul>
-                  <li><a href="#">Preguntas</a></li>
-                  <li><a href="#">Compras</a></li>
-                  <li><a href="#">Pago</a></li>
-              </ul>
+  
 
-          </div>
-          <div class="footer-links">
-
-              <h4>Siguenos</h4>
-              <div class="social-link">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-              </div>
-          </div>
-
-      </div>
-
-  </div>
-
-</footer>
-    
-        <div style="display: none;" id="contenedor-articulos"></div>
-        <script src="script-catalogo.js"></script>
-        
-  </body>
+</body>
 </html>
