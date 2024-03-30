@@ -16,7 +16,6 @@
     
     <script src="./js/script.js" defer></script>
     <script src="./js/script-overlay.js" defer></script>
-    <script src="./js/script carrito.js"></script>
 
 
   </head>
@@ -145,7 +144,7 @@
 
 <body>
    <div class="container-carrito">
-        <h1>Productos en el Carrito</h1>
+        <h1 style="text-align: center; padding: 1rem;" >Productos en el Carrito</h1>
         <div class="cart">
             <h2>Carrito de Compras</h2>
             <ul class="cart-items">
@@ -160,20 +159,24 @@
         <button id="vaciar-carrito" class="vaciar-carrito-button">Vaciar Carrito</button>
 
         
-        <div>
-          <h3 class="total-amount">Total:</h3>
-        </div>
+        <article class="pago" >
+            <div>
+            <h3 class="total-amount">Total:</h3>
+            </div>
 
-        <div class="pay">
-          <h1>
-            <a href="pagar.php">Pagar</a>
-          </h1>
-        </div>
+            <div class="pay">
+            <h1>
+                <a href="pagar.php">Pagar</a>
+            </h1>
+            </div>
+        </article>
+        
     </div>
 
 
 
-    <script src="script carrito.js"></script>
+    
+    <script src="./js/script carrito.js"></script>
 
 </body> <br><br><br><br><br><br><br><br><br><br><br><br>
 

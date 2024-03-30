@@ -256,8 +256,7 @@ button:hover {
 }
 
 #menu-registro {
-  
-  background-image: url("/styles-php/Registro.jpg");
+  background-image: url("./styles-php/Registro.jpg");
   position: fixed;
   top: 50%;
   left: 50%;
