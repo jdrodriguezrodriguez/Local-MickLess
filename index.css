@@ -424,24 +424,24 @@ button:hover {
 
 /*MENU:*/
 /*MENU DESPLEGABLE*/
-.desplegable{
+.desplegable, .desplegable-acceso{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.desplegable li{
+.desplegable li , .desplegable-acceso li{
     display: inline-block;
     position: relative; 
 }
 
-.desplegable li a{
+.desplegable li a , .desplegable-acceso li a{
     display: block;
     text-decoration: none;
     color: inherit; 
 }
 
-.desplegable li:hover ul{
+.desplegable li:hover ul, .desplegable-acceso li:hover ul{
     display: block;
 }
 
@@ -457,23 +457,59 @@ button:hover {
     border-left: solid 5px #f6be00;
     border-bottom: solid 5px #f6be00;
 }
+
 .desplegable ul li{
     display: block;
     margin-top: 2rem; 
 }
+
 .desplegable ul li a {
     padding: 2px 15px;
     font-size: 20px;
     text-align: center;  
     color: #f6be00;
 }
+
 .desplegable ul li a:hover{
   color: rgb(151, 0, 0); 
 }
 
-.desplegable ul ul {
+.desplegable ul ul, .desplegable-acceso ul ul{
     width: 200%;
 }
+
+.desplegable-acceso ul li{
+  display: block;
+  margin-top: 1rem; 
+}
+
+.desplegable-acceso ul{
+  display: none;
+  position: absolute;
+  background-color: #293844a1;
+  border: 1px solid #dddddd00;
+  margin: 0.5rem;
+  margin-top: 4.5rem;
+  border-right: solid 2px #f6be00;
+  border-left: solid 2px #f6be00;
+  border-bottom: solid 2px #f6be00;
+  padding-left: 2rem;
+  width: 90%;
+  border-radius: 15px
+}
+
+.desplegable-acceso ul li a{
+  padding: 5px 15px;
+  font-size: 20px;
+  text-align: center;  
+  color: #000000;
+}
+
+.desplegable-acceso  ul li a:hover{
+  color: rgb(255, 255, 255); 
+}
+
+
 
 /*BUSCADOR*/
 .menu-buscador{
@@ -502,10 +538,24 @@ button:hover {
   top: -2rem;
 }
 
+
+.Nav1 ul a, .Nav2 ul a{
+  padding: 3rem 3rem 2rem 3rem;
+  font-size: 24px; 
+  cursor: pointer;
+  text-decoration: none;
+  color:#f6be00;
+  transition: background-color 0,3s;
+}
+
+.Nav1 ul a:hover, .Nav2 ul a:hover{
+  color: rgb(151, 0, 0); 
+}
+
 /*ACCESO*/
 .Nav2 li a{
   position: relative;
-  float: right;
+  float: left;
   top: -2rem;
   margin: 0;
 }
@@ -538,25 +588,6 @@ button:hover {
   border-radius: 50%;
   padding: 5px 8px;
   font-size: 14px;
-}
-
-.Nav1 ul a, .Nav2 ul a{
-  padding: 3rem 3rem 2rem 3rem;
-  font-size: 24px; 
-  cursor: pointer;
-  text-decoration: none;
-  color:#f6be00;
-  transition: background-color 0,3s;
-}
-
-.Nav1 ul a:hover, .Nav2 ul a:hover{
-  color: rgb(151, 0, 0); 
-}
-
-/*CUENTAS:*/
-.Nav2 ul li h1{
-  color: white;
-  text-align: center;
 }
 
 /*INFORMACION:*/

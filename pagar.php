@@ -1,11 +1,14 @@
     <?php
+        include("db.php");
+        
         session_start();
         if(!isset($_SESSION['usuario'])){
-            echo '<script>alert("¡Hola! Para comprar, ingresa a tu cuenta");</script>';
-
-            header("location: Acceso.php");
-        }else{
+            echo '<script>alert("Para comprar, ingresa a tu cuenta");</script>';
+            echo '<script>window.location.href = "Acceso.php";</script>';
+            exit; 
+        } else {
             echo '<script>alert("Sigue comprando!");</script>';
-            header('location: carrito.php');
+            echo '<script>window.location.href = "carrito.php";</script>';
+            exit; 
         }
     ?>

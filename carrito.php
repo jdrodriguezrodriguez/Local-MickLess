@@ -39,7 +39,7 @@
         <div class="contenedor-nav">
             <nav class="Nav1">
                 <ul class="desplegable">
-                    <li><a href="catalogo.html">Hombre</a>
+                    <li><a href="catalogo.php">Hombre</a>
                         <ul>
                             <li><a href="Hombre.html">Ropa</a></li>
                             <li><a href="#">Accesorios</a></li>
@@ -165,9 +165,9 @@
         </div>
 
         <div class="pay">
-          <button>Pagar</button>
-           
-          <a href="pagar.php">pagar</a>
+          <h1>
+            <a href="pagar.php">Pagar</a>
+          </h1>
         </div>
     </div>
 

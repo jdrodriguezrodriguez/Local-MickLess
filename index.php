@@ -1,12 +1,7 @@
   <?php
-    session_start();
-
-    if(!isset($_SESSION['usuario'])){
-      header('location: Acceso.php');
-    }
-
     include_once("db.php");
   ?>
+          
 
 <!DOCTYPE html>
 <html lang="en">
@@ -78,23 +73,36 @@
                 <input class="buscador" type="text" id="input-busqueda" placeholder="Buscar aqui">
             </nav>
             
-            <nav id="acceso" class="Nav2">
-                <ul class="desplegable">
-                    <li><a href="#" id="menu-trigger">Acceso</a>
-                        <ul>
-                            <li style="padding-top: 12px;"><a href="cerrar.php">Cerrar sesion</a></li>
-                            <li>
-                              <h1 class="people" >
-                                    <?php
-                                    echo ucwords($_SESSION['usuario']);
-                                    ?>
-                              </h1>
-                              
-                            </li> 
-                        </ul>
+
+            <?php
+                session_start();
+                if(isset($_SESSION['usuario'])){
+                  echo'
+                  <nav id="acceso" class="Nav2">
+                    <ul class="desplegable-acceso">
+                      <li><a href="#" id="menu-trigger">Acceso</a>
+                          <ul>
+                             <li style="font-size: 1.2rem; padding-bottom: 20px; color: #f6be00;">TU CUENTA</li>
+                              <li><a href="#" style="color: white;">'.ucwords($_SESSION['usuario']).'</a></li>
+                              <li><a href="#">Ajustes</a></li>
+                              <li><a href="cerrar.php">Salir</a></li>
+                          </ul>
                       </li>
-                </ul>      
-            </nav>
+                    </ul>      
+                  </nav>';
+                } else{
+                  echo'
+                  <nav id="acceso" class="Nav2">
+                    <ul class="desplegable-acceso">
+                      <li><a href="#" id="menu-trigger">Acceso</a> 
+                      </li>
+                    </ul>      
+                  </nav>';
+                }
+
+                include_once("db.php");
+              ?>
+            
 
             
 
