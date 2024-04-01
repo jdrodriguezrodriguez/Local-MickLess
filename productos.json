@@ -6,32 +6,49 @@
     "precio": 300,
     "categoria": "producto zapatos",
     "genero": "hombre"
-    
   },
   {
-    "nombre": "bad bunny campus adidas",
+    "nombre": "Bad Bunny Campus Adidas",
     "descripcion": "Los Adidas Campus de Bad Bunny son una colaboración que fusiona el estilo icónico de las zapatillas Campus de Adidas con el distintivo toque urbano y creativo del famoso cantante de reguetón. Estas zapatillas capturan la esencia del estilo de Bad Bunny al combinar elementos clásicos con detalles modernos y llamativos. Confeccionadas con materiales de alta calidad y una construcción robusta, las Adidas Campus de Bad Bunny ofrecen comodidad y durabilidad, además de un estilo único y audaz. ",
-    "imagen": "image/Hombre/zapatos/bad bunny campus adidas.jpg",
-    "precio": 300,
+    "imagen": "image/Hombre/zapatos/Bad Bunny Campus Adidas.png",
+    "precio": 350,
     "categoria": "producto zapatos",
     "genero": "hombre"
   },
   {
     "nombre": "Nike Air Forece One one low",
     "descripcion": "Estas zapatillas destacan por su diseño atemporal y versátil que combina perfectamente con cualquier estilo. Con una parte superior de cuero, una entresuela de espuma y una suela de goma resistente, ofrecen comodidad, durabilidad y tracción en cada paso. El diseño de corte bajo brinda una sensación de libertad en el tobillo y una apariencia elegante.",
-    "imagen": "image/Hombre/zapatos/Nike Air Forece One one low.jpg",
+    "imagen": "image/Hombre/zapatos/Nike Jordan Retro 4.png",
     "precio": 300,
     "categoria": "producto zapatos",
     "genero": "hombre"
   },
   {
-    "nombre": "Nike Jordan Retro 1 ",
+    "nombre": "Adidas Forum Bad Bunny",
     "descripcion": "Estas zapatillas destacan por su diseño atemporal y versátil que combina perfectamente con cualquier estilo. Con una parte superior de cuero, una entresuela de espuma y una suela de goma resistente, ofrecen comodidad, durabilidad y tracción en cada paso. El diseño de corte bajo brinda una sensación de libertad en el tobillo y una apariencia elegante.",
-    "imagen": "image/Hombre/zapatos/a.jpg",
-    "precio": 300,
+    "imagen": "image/Hombre/zapatos/Adidas Forum X Bad Bunny.jpg",
+    "precio": 350,
+    "categoria": "producto zapatos",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Adidas adi 2000",
+    "descripcion": "Estas zapatillas destacan por su diseño atemporal y versátil que combina perfectamente con cualquier estilo. Con una parte superior de cuero, una entresuela de espuma y una suela de goma resistente, ofrecen comodidad, durabilidad y tracción en cada paso. El diseño de corte bajo brinda una sensación de libertad en el tobillo y una apariencia elegante.",
+    "imagen": "image/Hombre/zapatos/Adidas adi 2000.png",
+    "precio": 550,
+    "categoria": "producto zapatos",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Puma 180",
+    "descripcion": "Estas zapatillas destacan por su diseño atemporal y versátil que combina perfectamente con cualquier estilo. Con una parte superior de cuero, una entresuela de espuma y una suela de goma resistente, ofrecen comodidad, durabilidad y tracción en cada paso. El diseño de corte bajo brinda una sensación de libertad en el tobillo y una apariencia elegante.",
+    "imagen": "image/Hombre/zapatos/Puma 180.png",
+    "precio": 400,
     "categoria": "producto zapatos",
     "genero": "hombre"
   }
+
+
 
 
 
@@ -39,7 +56,7 @@
   {
     "nombre": "Camiseta GORGLITTER",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
-    "imagen": "image/Hombre/camisetas/Camibuso Manga Larga En Licra Para Deportes Y Natacion-Photoroom.png-Photoroom.png" ,
+    "imagen": "image/Hombre/camisetas/COOFANDY_Camisa_casual_Henley_para_hombre__manga_corta.png" ,
     "precio": 400,
     "categoria": "producto camisetas",
     "genero": "hombre"
@@ -55,7 +72,31 @@
   {
     "nombre": "Camiseta GORGLITTER",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
-    "imagen": "image/Hombre/camisetas/GORGLITTER_Camisetas_con_estampado_g.png" ,
+    "imagen": "image/Hombre/camisetas/GORGLITTER_Camisetas_con_estampado_g (1).png" ,
+    "precio": 400,
+    "categoria": "producto camisetas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Camiseta GORGLITTER",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/camisetas/SOLY_HUX_Men_s_Letter_Print_Tee_Mock_Neck_Short_Sleeve_T_Shirtpreview.png" ,
+    "precio": 400,
+    "categoria": "producto camisetas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Camiseta GORGLITTER",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/camisetas/Magiftbox_Camisas_de_entrenamiento-removebg-preview.png" ,
+    "precio": 400,
+    "categoria": "producto camisetas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Camiseta GORGLITTER",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/camisetas/JMIERR_Camisa_de_algodón_y_lino_con_boto.png" ,
     "precio": 400,
     "categoria": "producto camisetas",
     "genero": "hombre"
@@ -63,9 +104,63 @@
 
 
 
+
   ,
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "Oferta",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__infor.png" ,
+    "precio": 400,
+    "categoria": "producto ofertas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Oferta",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/Dr.Cyril_Chaqueta_Sherpa_Trucker_para_hombre__chaqueta_con_forro_po.png" ,
+    "precio": 400,
+    "categoria": "producto ofertas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Oferta",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/Wrangler_Authentics_-.png" ,
+    "precio": 400,
+    "categoria": "producto ofertas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Oferta",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/Tommy_Hilfiger_Chaqueta_de_rendimiento_con_forro_.png" ,
+    "precio": 400,
+    "categoria": "producto ofertas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Oferta",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/Levi_s_-_Chaqueta_de_sherpa_estilo_camionero_para_hombre_.png" ,
+    "precio": 400,
+    "categoria": "producto ofertas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Oferta",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__infor.png" ,
+    "precio": 400,
+    "categoria": "producto ofertas",
+    "genero": "hombre"
+  }
+
+
+
+
+  ,
+  {
+    "nombre": "chaquetas GORGLITTER",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__infor.png" ,
     "precio": 400,
@@ -73,7 +168,7 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "chaquetas GORGLITTER",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/chaquetas/Dr.Cyril_Chaqueta_Sherpa_Trucker_para_hombre__chaqueta_con_forro_po.png" ,
     "precio": 400,
@@ -81,9 +176,33 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "chaquetas GORGLITTER",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/chaquetas/Wrangler_Authentics_-.png" ,
+    "precio": 400,
+    "categoria": "producto chaquetas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "chaquetas GORGLITTER",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/Tommy_Hilfiger_Chaqueta_de_rendimiento_con_forro_.png" ,
+    "precio": 400,
+    "categoria": "producto chaquetas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "chaquetas GORGLITTER",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/Levi_s_-_Chaqueta_de_sherpa_estilo_camionero_para_hombre_.png" ,
+    "precio": 400,
+    "categoria": "producto chaquetas",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "chaquetas GORGLITTER",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/chaquetas/Columbia_Glennaker_-_Chaqueta_impermeable_para_hombre-removebg-preview.png" ,
     "precio": 400,
     "categoria": "producto chaquetas",
     "genero": "hombre"
