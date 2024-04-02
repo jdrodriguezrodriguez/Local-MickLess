@@ -54,7 +54,7 @@
 
   ,
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "COOFANDY Camisa casual Henley ",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/camisetas/COOFANDY_Camisa_casual_Henley_para_hombre__manga_corta.png" ,
     "precio": 400,
@@ -62,7 +62,7 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "Camisa De Pana",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/camisetas/Camisa De Pana Con Botones Para Hombre, Ropa De Abrigo.png" ,
     "precio": 400,
@@ -70,7 +70,7 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "Camisetas con estampado GORGLITTER",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/camisetas/GORGLITTER_Camisetas_con_estampado_g (1).png" ,
     "precio": 400,
@@ -78,7 +78,7 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "SOLY HUX Men Letter",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/camisetas/SOLY_HUX_Men_s_Letter_Print_Tee_Mock_Neck_Short_Sleeve_T_Shirtpreview.png" ,
     "precio": 400,
@@ -86,7 +86,7 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "Camisas de entrenamiento Magiftbox",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/camisetas/Magiftbox_Camisas_de_entrenamiento-removebg-preview.png" ,
     "precio": 400,
@@ -94,36 +94,93 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Camiseta GORGLITTER",
+    "nombre": "Camisa JMIERR",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/camisetas/JMIERR_Camisa_de_algodón_y_lino_con_boto.png" ,
     "precio": 400,
     "categoria": "producto camisetas",
     "genero": "hombre"
-  }
+  },
 
 
 
 
-  ,
+
+  
+  {
+    "nombre": "Modiya Banda de Acero",
+    "descripcion": "La banda de acero Modiya combina elegancia y durabilidad en un diseño moderno y sofisticado. Fabricada con acero inoxidable de alta calidad, esta banda ofrece un ajuste cómodo y seguro para tu reloj. Su estilo versátil se adapta a cualquier ocasión, desde reuniones formales hasta actividades cotidianas.",
+    "imagen": "image/Hombre/accesorios/Modiya Banda de Acero.jpeg",
+    "precio": 800,
+    "categoria": "producto accesorios",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Reloj de cuarzo clasico",
+    "descripcion": "Es la personificación de la elegancia atemporal y la precisión confiable. Con su diseño sobrio y refinado, este reloj es el complemento perfecto para cualquier ocasión, desde reuniones formales hasta eventos cotidianos. Su movimiento de cuarzo garantiza una precisión excepcional, mientras que su diseño clásico y minimalista añade un toque de sofisticación a tu estilo.",
+    "imagen": "image/Hombre/accesorios/Reloj de cuarzo clasico.png",
+    "precio": 400,
+    "categoria": "producto accesorios",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Collar de cruz - Acero",
+    "descripcion": "Es más que una simple joya; es un símbolo de fe, estilo y durabilidad. Fabricado con acero inoxidable de alta calidad, este collar combina la resistencia con un diseño elegante y atemporal. La cruz, un símbolo universal de esperanza y redención, se presenta con una estética moderna y sofisticada, añadiendo un toque de significado y estilo a tu atuendo. ",
+    "imagen": "image/Hombre/accesorios/Collar de cruz - Acero.jpg",
+    "precio": 400,
+    "categoria": "producto accesorios",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Gafas de sol",
+    "descripcion": "Son mucho más que un simple accesorio; son una declaración de estilo y personalidad. Con su diseño moderno y sofisticado, estas gafas combinan la elegancia con la funcionalidad para ofrecerte protección contra el sol sin comprometer tu estilo. El tono café de las monturas añade un toque de calidez y versatilidad, complementando una amplia gama de atuendos y colores de piel.",
+    "imagen": "image/Hombre/accesorios/Gafas de sol.jpg",
+    "precio": 400,
+    "categoria": "producto accesorios",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Gorra verde.",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/accesorios/Gorra verde.png",
+    "precio": 400,
+    "categoria": "producto accesorios",
+    "genero": "hombre"
+  },
+  {
+    "nombre": "Gorra gris.",
+    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "imagen": "image/Hombre/accesorios/Gorra gris.png",
+    "precio": 400,
+    "categoria": "producto accesorios",
+    "genero": "hombre"
+  },
+  
+  
+
+
+
+
+
+  
   {
     "nombre": "Oferta",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
-    "imagen": "image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__infor.png" ,
+    "imagen": "image/Hombre/camisetas/JMIERR_Camisa_de_algodón_y_lino_con_boto.png" ,
     "precio": 400,
     "categoria": "producto ofertas",
     "genero": "hombre"
   },
   {
-    "nombre": "Oferta",
+    "nombre": "Reebok Club C-85",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
-    "imagen": "image/Hombre/chaquetas/Dr.Cyril_Chaqueta_Sherpa_Trucker_para_hombre__chaqueta_con_forro_po.png" ,
+    "imagen": "image/Hombre/zapatos/Reebok Club C-85.png" ,
     "precio": 400,
     "categoria": "producto ofertas",
     "genero": "hombre"
   },
   {
-    "nombre": "Oferta",
+    "nombre": "Wrangler Authentics",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/chaquetas/Wrangler_Authentics_-.png" ,
     "precio": 400,
@@ -131,23 +188,23 @@
     "genero": "hombre"
   },
   {
-    "nombre": "Oferta",
+    "nombre": "Puma 180",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
-    "imagen": "image/Hombre/chaquetas/Tommy_Hilfiger_Chaqueta_de_rendimiento_con_forro_.png" ,
+    "imagen": "image/Hombre/zapatos/Puma 180.png" ,
     "precio": 400,
     "categoria": "producto ofertas",
     "genero": "hombre"
   },
   {
-    "nombre": "Oferta",
+    "nombre": "Modiya Banda de Acero",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
-    "imagen": "image/Hombre/chaquetas/Levi_s_-_Chaqueta_de_sherpa_estilo_camionero_para_hombre_.png" ,
+    "imagen": "image/Hombre/accesorios/Modiya Banda de Acero.jpeg" ,
     "precio": 400,
     "categoria": "producto ofertas",
     "genero": "hombre"
   },
   {
-    "nombre": "Oferta",
+    "nombre": "Chaqueta universitaria COOFANDY",
     "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
     "imagen": "image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__infor.png" ,
     "precio": 400,
@@ -160,48 +217,48 @@
 
   ,
   {
-    "nombre": "chaquetas GORGLITTER",
-    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "nombre": "Chaqueta universitaria COOFANDY",
+    "descripcion": "La chaqueta universitaria COOFANDY es un símbolo de estilo y nostalgia. Inspirada en el clásico diseño de las chaquetas universitarias americanas, esta prenda combina el espíritu deportivo con un toque de elegancia urbana. Fabricada con materiales de alta calidad y atención al detalle, la chaqueta COOFANDY ofrece comodidad y durabilidad. Su diseño atemporal, con ribetes contrastantes y detalles bordados, añade un toque distintivo a tu atuendo casual.",
     "imagen": "image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__infor.png" ,
     "precio": 400,
     "categoria": "producto chaquetas",
     "genero": "hombre"
   },
   {
-    "nombre": "chaquetas GORGLITTER",
-    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "nombre": "Chaqueta Sherpa Trucker Dr.Cyril",
+    "descripcion": "La Chaqueta Sherpa Trucker de Dr.Cyril es una fusión perfecta de estilo y funcionalidad. Confeccionada con materiales de alta calidad y un diseño robusto, esta chaqueta te brinda un look urbano y moderno con un toque de rusticidad. Su forro de sherpa en el cuello y el cuerpo proporciona una calidez reconfortante en los días más frescos, mientras que su ajuste cómodo y versátil te permite moverte con facilidad.",
     "imagen": "image/Hombre/chaquetas/Dr.Cyril_Chaqueta_Sherpa_Trucker_para_hombre__chaqueta_con_forro_po.png" ,
     "precio": 400,
     "categoria": "producto chaquetas",
     "genero": "hombre"
   },
   {
-    "nombre": "chaquetas GORGLITTER",
-    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "nombre": "Wrangler Authentics",
+    "descripcion": "La línea Wrangler Authentics encapsula la esencia del estilo estadounidense clásico con un toque de modernidad. Con una amplia gama de prendas que van desde jeans hasta chaquetas, Wrangler Authentics ofrece calidad, comodidad y estilo atemporal para el hombre contemporáneo. Confeccionadas con los mejores materiales y diseñadas con atención al detalle, las prendas de Wrangler Authentics son versátiles y duraderas, perfectas para el día a día y para cualquier aventura que te depare la vida.",
     "imagen": "image/Hombre/chaquetas/Wrangler_Authentics_-.png" ,
     "precio": 400,
     "categoria": "producto chaquetas",
     "genero": "hombre"
   },
   {
-    "nombre": "chaquetas GORGLITTER",
-    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "nombre": "Chaqueta de rendimiento Tommy Hilfiger",
+    "descripcion": "La Chaqueta de rendimiento Tommy Hilfiger combina estilo y funcionalidad para ofrecerte una prenda versátil y moderna. Diseñada con los estándares de calidad característicos de la marca, esta chaqueta es perfecta para enfrentar los elementos con estilo. Fabricada con materiales de alto rendimiento, ofrece protección contra el viento y la lluvia sin comprometer la comodidad ni la movilidad. Su diseño contemporáneo y elegante te permite lucir bien tanto en la ciudad como en la naturaleza. ",
     "imagen": "image/Hombre/chaquetas/Tommy_Hilfiger_Chaqueta_de_rendimiento_con_forro_.png" ,
     "precio": 400,
     "categoria": "producto chaquetas",
     "genero": "hombre"
   },
   {
-    "nombre": "chaquetas GORGLITTER",
-    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "nombre": "Chaqueta de sherpa Levi's",
+    "descripcion": "La Chaqueta de sherpa Levi's es un ícono de estilo y comodidad que fusiona la autenticidad del denim con el calor reconfortante del sherpa. Inspirada en la herencia estadounidense de Levi's, esta chaqueta ofrece un diseño clásico con un toque moderno. El sherpa suave y acogedor en el interior proporciona una calidez excepcional en los días más fríos, mientras que el denim resistente en el exterior ofrece durabilidad y estilo atemporal.",
     "imagen": "image/Hombre/chaquetas/Levi_s_-_Chaqueta_de_sherpa_estilo_camionero_para_hombre_.png" ,
     "precio": 400,
     "categoria": "producto chaquetas",
     "genero": "hombre"
   },
   {
-    "nombre": "chaquetas GORGLITTER",
-    "descripcion": "Las camisetas GORGLITTER con estampado gráfico son una expresión de creatividad y estilo en el mundo de la moda contemporánea. Estas prendas destacan por sus diseños audaces y llamativos, que incorporan una amplia variedad de imágenes, colores y patrones para crear impacto visual. ",
+    "nombre": "Chaqueta impermeable Columbia Glennaker",
+    "descripcion": "La Chaqueta impermeable Columbia Glennaker es la elección perfecta para aquellos que buscan protección contra los elementos sin sacrificar el estilo. Diseñada con la calidad y la experiencia en exteriores de Columbia, esta chaqueta ofrece una protección confiable contra la lluvia y el viento, manteniéndote seco y cómodo en cualquier situación. Su tejido impermeable y transpirable garantiza que te mantengas protegido sin sobrecalentarte, mientras que su ajuste cómodo y versátil te permite moverte con libertad. ",
     "imagen": "image/Hombre/chaquetas/Columbia_Glennaker_-_Chaqueta_impermeable_para_hombre-removebg-preview.png" ,
     "precio": 400,
     "categoria": "producto chaquetas",

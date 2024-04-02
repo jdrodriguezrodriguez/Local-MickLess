@@ -15,7 +15,7 @@
 
             echo '<script>alert("USUARIO CREADO CORRECTAMENTE");</script>';
 
-            echo '<script>window.location.href = "index.html";</script>';
+            echo '<script>window.location.href = "index.php";</script>';
         } else {
 
             echo '<script>alert("ERROR AL REGISTRAR: ' . $conexion->error . '");</script>';

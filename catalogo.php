@@ -39,9 +39,9 @@
       <div class="contenedor-nav">
           <nav class="Nav1">
               <ul class="desplegable">
-                  <li><a href="catalogo.html">Hombre</a>
+                  <li><a href="catalogo.php">Hombre</a>
                       <ul>
-                          <li><a href="catalogo.html">Ropa</a></li>
+                          <li><a href="catalogo.php">Ropa</a></li>
                           <li><a href="#">Accesorios</a></li>
                           <li><a href="#">Zapatos</a></li>
                       </ul>
@@ -68,11 +68,36 @@
               <input class="buscador" type="text" id="input-busqueda" placeholder="Buscar aqui">
           </nav>
           
-          <nav class="Nav2">
-            <ul>
-                <li><a href="#" id="menu-trigger">Acceso</a></li>
-            </ul>
-          </nav>
+          <?php
+                session_start();
+                if(isset($_SESSION['usuario'])){
+                  echo'
+                  <nav id="acceso" class="Nav2">
+                    <ul class="desplegable-acceso">
+                      <li><a href="#" id="menu-trigger">Acceso</a>
+                          <ul>
+                             <li style="font-size: 1.2rem; padding-bottom: 20px; color: #f6be00;">TU CUENTA</li>
+                              <li><a href="#" style="color: white;  right: 1rem;">'.ucwords($_SESSION['usuario']).'</a></li>
+                              <li><a href="#">Ajustes</a></li>
+                              <li><a href="cerrar.php">Salir</a></li>
+                          </ul>
+                      </li>
+                    </ul>      
+                  </nav>';
+                } else{
+                  echo'
+                  <nav id="acceso" class="Nav2">
+                    <ul class="desplegable-acceso">
+                      <li><a href="#" id="menu-trigger">Acceso</a> 
+                      </li>
+                    </ul>      
+                  </nav>';
+                }
+
+                include_once("db.php");
+            ?>
+            
+
 
         <!--ACCESO-->
           <div id="overlay"></div>
@@ -197,15 +222,15 @@
 
   <section class="categorias">
       <article class="post-categoria" data-categoria="zapatos">
-          <img src="image/Hombre/zapatos/bad bunny campus adidas.jpg" width="150" >
+          <img src="image/Hombre/zapatos/Reebok Club C-85.png" width="140" >
           <h2>Zapatos</h2>
       </article>
       <article class="post-categoria" data-categoria="camisetas">
-          <img src="image/Hombre/camisetas/Russell_camiseta_atlética_para_entrenar_para_hombre-removebg-preview.png" width="105" >
+          <img src="image/Hombre/camisetas/COOFANDY_Camisa_casual_Henley_para_hombre__manga_corta.png" width="105" >
           <h2>Camisetas</h2>
       </article>
       <article class="post-categoria" data-categoria="accesorios">
-          <img src="image/Accesorios unisex/Relojes/CASIO_de_pulsera_clásica_3_agujas.jpg" width="150" >
+          <img src="image/Hombre/accesorios/Collar de cruz - Acero.jpg" width="150" >
           <h2>Accesorios</h2>
       </article>
       <article class="post-categoria" data-categoria="ofertas">
@@ -213,7 +238,7 @@
           <h2>Ofertas</h2>
       </article>
       <article class="post-categoria" data-categoria="chaquetas">
-          <img src="image/Hombre/chaquetas/Wrangler_Chaqueta_vaquera_sin_forro_Western_para_hombre-removebg-preview.png" width="105" >
+          <img src="image/Hombre/chaquetas/COOFANDY_-_Chaqueta_universitaria_de_moda_para_hombre__infor.png" width="85" >
           <h2>Chaquetas</h2>
       </article>
   </section>

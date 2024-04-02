@@ -83,7 +83,7 @@
                       <li><a href="#" id="menu-trigger">Acceso</a>
                           <ul>
                              <li style="font-size: 1.2rem; padding-bottom: 20px; color: #f6be00;">TU CUENTA</li>
-                              <li><a href="#" style="color: white;">'.ucwords($_SESSION['usuario']).'</a></li>
+                              <li><a href="#" style="color: white; right: 1rem;">'.ucwords($_SESSION['usuario']).'</a></li>
                               <li><a href="#">Ajustes</a></li>
                               <li><a href="cerrar.php">Salir</a></li>
                           </ul>
@@ -193,14 +193,14 @@
           chevron_left
         </button>
         <ul class="image-list">
-          <img class="image-item" src="image/Hombre/zapatos/bad bunny campus adidas.jpg" alt="img-1" />
-          <img class="image-item" src="image/Hombre/zapatos/DC SHOES.jpg" alt="img-2" />
+          <img class="image-item" src="image/Hombre/zapatos/Bad Bunny Campus Adidas.png" alt="img-1" />
+          <img class="image-item" src="image/Hombre/chaquetas/Columbia_Glennaker_-_Chaqueta_impermeable_para_hombre-removebg-preview.png" alt="img-2" />
           <a href="New Balance 550.html"><img class="image-item" src="image/Hombre/zapatos/New Balance 550.jpg" alt="img-3" />
           </a>
-          <img class="image-item" src="image/Hombre/zapatos/Nike Air Forece One one low.jpg" alt="img-4" />
-          <img class="image-item" src="image/Hombre/zapatos/adidas-adi-3000-purple.png" alt="img-5" />
-          <img class="image-item" src="image/Hombre/zapatos/Versace Chain.jpg" alt="img-6" />
-          <img class="image-item" src="image/Hombre/zapatos/adidas_Zapato_Hombre_adidas_Performance_Grand_Court_Base-removebg-preview.png" alt="img-6" />
+          <img class="image-item" src="image/Hombre/zapatos/Nike Jordan Retro 4.png" alt="img-4" />
+          <img class="image-item" src="image/Hombre/camisetas/GORGLITTER_Camisetas_con_estampado_g (1).png" alt="img-5" />
+          <img class="image-item" src="image/Hombre/accesorios/Collar de cruz - Acero.jpg" alt="img-6" />
+          <img class="image-item" src="image/Hombre/camisetas/Camisa De Pana Con Botones Para Hombre, Ropa De Abrigo.png" alt="img-6" />
         </ul>
         <button id="next-slide" class="slide-button material-symbols-rounded">
           chevron_right

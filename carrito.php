@@ -67,11 +67,36 @@
                 <input class="buscador" type="text" id="input-busqueda" placeholder="Buscar aqui">
             </nav>
             
-            <nav class="Nav2">
-              <ul>
-                  <li><a href="#" id="menu-trigger">Acceso</a></li>
-              </ul>
-            </nav>
+            <?php
+                session_start();
+                if(isset($_SESSION['usuario'])){
+                  echo'
+                  <nav id="acceso" class="Nav2">
+                    <ul class="desplegable-acceso">
+                      <li><a href="#" id="menu-trigger">Acceso</a>
+                          <ul>
+                             <li style="font-size: 1.2rem; padding-bottom: 20px; color: #f6be00;">TU CUENTA</li>
+                              <li><a href="#" style="color: white;  right: 1rem;">'.ucwords($_SESSION['usuario']).'</a></li>
+                              <li><a href="#">Ajustes</a></li>
+                              <li><a href="cerrar.php">Salir</a></li>
+                          </ul>
+                      </li>
+                    </ul>      
+                  </nav>';
+                } else{
+                  echo'
+                  <nav id="acceso" class="Nav2">
+                    <ul class="desplegable-acceso">
+                      <li><a href="#" id="menu-trigger">Acceso</a> 
+                      </li>
+                    </ul>      
+                  </nav>';
+                }
+
+                include_once("db.php");
+              ?>
+            
+
 
           <!--ACCESO-->
             <div id="overlay"></div>
